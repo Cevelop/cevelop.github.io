@@ -14,10 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="logo-white.svg"
-   inkscape:export-filename="/home/misto/cevelop-logo.png"
-   inkscape:export-xdpi="140"
-   inkscape:export-ydpi="140">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/logo.png"
+   inkscape:export-xdpi="270.53"
+   inkscape:export-ydpi="270.53">
   <defs
      id="defs4">
     <font
@@ -46,46 +46,26 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="72.288589"
-     inkscape:cy="-5.7997617"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-20.262438"
+     inkscape:cy="25.68993"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="1928"
-     inkscape:window-height="1152"
-     inkscape:window-x="189"
-     inkscape:window-y="239"
+     inkscape:window-height="883"
+     inkscape:window-x="191"
+     inkscape:window-y="454"
      inkscape:window-maximized="0"
      inkscape:snap-global="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0">
-    <sodipodi:guide
-       orientation="0,1"
-       position="72.48637,-173.74504"
-       id="guide3063" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="95.59361,-273.24506"
-       id="guide3065" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="27.78712,-44.445523"
-       id="guide3067" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="112.00103,-245.62954"
-       id="guide3069" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="73.4296,-223.30812"
-       id="guide3071" />
     <inkscape:grid
        type="xygrid"
        id="grid3065"
@@ -95,14 +75,6 @@
        snapvisiblegridlinesonly="true"
        originx="-389.78469px"
        originy="-837.41526px" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="70.84487,-64.143493"
-       id="guide3775" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="108.07245,-78.665263"
-       id="guide3813" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -125,27 +97,28 @@
        sodipodi:linespacing="125%"
        id="text3845"
        y="198.24008"
-       x="444.84445"
+       x="445.38013"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
        xml:space="preserve"><tspan
          dy="-2.8571429"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:0px;fill:#ffffff;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand"
          y="198.24008"
-         x="444.84445"
+         x="445.38013"
          id="tspan3847"
-         sodipodi:role="line">evelop</tspan></text>
+         sodipodi:role="line"
+         dx="-1.0067467e-08 -1.0067467e-08 -1.3239667 -0.60968101 -0.86221915 -1.0407906">evelop</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text3849"
-       y="210.18896"
+       y="209.25279"
        x="452.1886"
        style="font-size:40.17013931px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
        xml:space="preserve"><tspan
          style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold"
-         y="210.18896"
+         y="209.25279"
          x="452.1886"
          id="tspan3851"
-         sodipodi:role="line">++</tspan></text>
+         sodipodi:role="line">+</tspan></text>
     <path
        sodipodi:nodetypes="csssc"
        inkscape:connector-curvature="0"
@@ -161,14 +134,14 @@
     <text
        xml:space="preserve"
        style="font-size:40.17013931px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
-       x="452.1886"
-       y="210.18896"
-       id="text3865"
+       x="464.51511"
+       y="209.25279"
+       id="text3016"
        sodipodi:linespacing="125%"><tspan
-         id="tspan3867"
          sodipodi:role="line"
-         x="452.1886"
-         y="210.18896"
-         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold">++</tspan></text>
+         id="tspan3018"
+         x="464.51511"
+         y="209.25279"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold">+</tspan></text>
   </g>
 </svg>
