@@ -1,3 +1,6 @@
-title: Cevelop
 markdown: redcarpet
 pygments: true
+
+title: Cevelop
+logo-small: /img/logo-white.svg
+logo: /img/logo-narrow-2.svg

@@ -1,7 +1,3 @@
----
-logo-small: img/logo-white.svg
----
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,11 +8,11 @@ logo-small: img/logo-white.svg
     <meta name="author" content="Mirko Stocker">
     <link rel="shortcut icon" href="ico/favicon.ico">
 
-    <title>{{ site.title }}</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/cevelop.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/cevelop.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,27 +32,56 @@ logo-small: img/logo-white.svg
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Cevelop</a>
+          <a class="navbar-brand" href="/">Cevelop</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown">
+	   
+	    {% if page.active == "home" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/">Home</a>
+	      </li>
+	      	   
+	    {% if page.active == "about" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/about">About</a>
+	      </li>
+	      
+	    {% if page.active == "download" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/download">Download</a>
+	      </li>
+		
+	    {% if page.active == "features" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/features">Features</a>
+	      </li>
+	      
+            <!--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Another action</a></li>
                 <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
               </ul>
-            </li>
+            </li>-->
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a style="padding-bottom: 0; padding-top: 10px; padding-left: 5px;" href="#"><img class="" style="width: 140px;" src="{{ page.logo-small }}" /></a></li>
+            <li><a style="padding-bottom: 0; padding-top: 10px; padding-left: 5px;" href="/"><img class="" style="width: 140px;" src="{{ site.logo-small }}" /></a></li>
           </ul>
         </div>
       </div>
@@ -64,13 +89,14 @@ logo-small: img/logo-white.svg
     
     {{ content }}
 
-    <div class="jumbotron" style="margin-bottom: 0px; margin-top: 100px;">
+    <div class="jumbotron" style="margin-bottom: 0px; position: absolute; bottom: 100px; width: 100%">
       <div class="container">
         <p>
           <h4 style="text-align: center;">Developed within the context of the REPARA project, co-funded by the European Commission within the Seventh Framework Programme</h4>
           <div style="text-align: center; padding-top: 20px;">
-            <img src="img/repara.png" style="padding-right: 100px;" />
-            <img src="img/fp7.png" width="200px" />
+            <a href="http://repara-project.eu/"><img src="/img/repara.png" style="padding-right: 100px;" /></a>
+            <img src="/img/fp7.png" width="200px" style="padding-right: 100px;"/>
+            <a href="http://www.hsr.ch/"><img src="/img/hsr.jpg"  width="250px"  /></a>
           </div>
         </p>
       </div>
@@ -78,11 +104,30 @@ logo-small: img/logo-white.svg
     <footer id="footer" class="jumbotron" >
       <div class="container">
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Institute for Software &middot; <a href="#">Terms</a></p>
+        <p>&copy; <a href="http://ifs.hsr.ch">2014 Institute for Software</a></p>
       </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+    <!-- ################ -->
+    <!-- Piwik Tracking Code -->
+    <!-- ################ -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["setCookieDomain", "*.cevelop.com"]);
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+	var u=(("https:" == document.location.protocol) ? "https" : "http") + "://log.hsr.ch/";
+	_paq.push(["setTrackerUrl", u+"piwik.php"]);
+	_paq.push(["setSiteId", "81"]);
+	var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+	g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
   </body>
 </html>
