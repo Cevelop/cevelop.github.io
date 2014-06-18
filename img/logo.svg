@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="199.61"
+   height="60.93"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/misto/cevelop-logo.png"
+   inkscape:export-xdpi="140"
+   inkscape:export-ydpi="140">
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="1024"
+       id="font3817"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         units-per-em="1024"
+         id="font-face3819"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3821" />
+      <glyph
+         glyph-name="glyph 1"
+         id="glyph3823" />
+    </font>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="71.744998"
+     inkscape:cy="3.932959"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1928"
+     inkscape:window-height="883"
+     inkscape:window-x="214"
+     inkscape:window-y="523"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3065"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-389.78469px"
+       originy="-837.41526px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-389.78469,-154.01692)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3845"
+       y="198.24008"
+       x="445.38013"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
+       xml:space="preserve"><tspan
+         dy="-2.8571429"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:0px;fill:#000000;fill-opacity:1;font-family:Quicksand;-inkscape-font-specification:Quicksand"
+         y="198.24008"
+         x="445.38013"
+         id="tspan3847"
+         sodipodi:role="line"
+         dx="-1.0067467e-08 -1.0067467e-08 -1.3239667 -0.60968101 -0.86221915 -1.0407906">evelop</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3849"
+       y="209.25279"
+       x="452.1886"
+       style="font-size:40.17013931px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
+       xml:space="preserve"><tspan
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold"
+         y="209.25279"
+         x="452.1886"
+         id="tspan3851"
+         sodipodi:role="line">+</tspan></text>
+    <path
+       sodipodi:nodetypes="csssc"
+       inkscape:connector-curvature="0"
+       id="path3853"
+       d="m 447.78478,204.01902 c -4.7438,4.74381 -11.2973,7.6779 -18.53609,7.6779 -14.47759,0 -26.214,-11.73641 -26.214,-26.21399 0,-14.47759 11.73641,-26.214 26.214,-26.214 7.23879,0 13.79229,2.93409 18.53609,7.6779"
+       style="fill:none;stroke:#ff0000;stroke-width:2.5;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.91083288;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 438.96928,194.84997 c -2.39723,2.39724 -5.70897,3.87995 -9.36702,3.87995 -7.31613,0 -13.24699,-5.93088 -13.24699,-13.24699 0,-7.31612 5.93086,-13.247 13.24699,-13.247 3.65805,0 6.96979,1.48271 9.36702,3.87995"
+       id="path3855"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40.17013931px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
+       x="462.69366"
+       y="209.25279"
+       id="text3016"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3018"
+         x="462.69366"
+         y="209.25279"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold">+</tspan></text>
+  </g>
+</svg>

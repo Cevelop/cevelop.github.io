@@ -1,13 +1,83 @@
 ---
 layout: default
-title: Your New Jekyll Site
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="jumbotron">
+  <img class="center-block" style="width: 100%; max-width: 555px;" src="img/logo-narrow-2.svg" />
+  <p style="margin: 1em 0 1em 0;" class="lead text-center">The <span style="color:red;">C++</span> IDE for professional developers</p>
+  <p class="text-center">
+    <a class="btn btn-lg btn-default" role="button" href="#">Get it now!</a>
+  </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="img-circle" src="img/eclipse.png">
+      <h2>Eclipse Based</h2>
+      <p>Cevelop is based on the popular Eclipse CDT C/<span style="color:red;">C++</span> Development Tooling. This gives Cevelop a stable foundation and provides a state of the art IDE experience and support for all major platforms: Windows, Mac OS X, and Linux.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="img/download.png">
+      <h2>One Download</h2>
+      <p>Cevelop is a one-stop download that includes all the plug-ins that you need to develop modern <span style="color:red;">C++</span> code. Because it's based on Eclipse, you can still install your favorite plug-ins.</p>
+      <p><a class="btn btn-default" href="#" role="button">Download Now &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="img/rocket.png">
+      <h2>IDE++</h2>
+      <p>Cevelop extends Eclipse CDT with many additional features: CUTE unit testing support, many new refactorings and quick fixes, and much more.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+</div>
+
+<div class="container">
+  <div class="page-header">
+    <h1></h1>
+  </div>
+  
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">CUTE: Green Bar for C++</h2>
+      <p class="lead">CUTE, short for <span style="color:red;">C++</span> Unit Testing Easier, is a <span style="color:red;">C++</span> unit testing framework mandatory for every <span style="color:red;">C++</span> project. The CUTE plug-in support easy development and management of CUTE unit tests for your software. Features like red/green-bar result visualization, automatic test registration and code coverage alleviate every-day tasks of a software developer. The plug-in also encourages test driven development through various code generation mechanisms, reducing development time significantly.</p>
+      <p class="lead">Cevelop also comes with powerful Seams and Mock support ...</p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" src="img/square-cute.png">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" src="img/square-macronator.png" alt="Generic placeholder image">
+    </div>
+    <div class="col-md-7">
+      <h2 class="featurette-heading">More Refactorings and Quick-Assists</h2>
+      <p class="lead">Eclipse CDT comes with some basic automated refactorings. Cevelop builds on these foundations and gives you many more.</p>
+      <p class="lead"><strong>Namespace</strong> refactorings to quality unqualified names and inline and extract using directives and declarations.</p>
+      <p class="lead"><strong>Macros</strong> should not be used in modern <span style="color:red;">C++</span>. Cevelop assists you in replacing object- and function-like macros with proper <span style="color:red;">C++</span> constexprs and functions.</p>
+      <p class="lead"><strong>C++11 and C++14</strong> make writing <span style="color:red;">C++</span> code much more pleasant. Cevelop helps you to upgrade your code to automatically take advantage of new features such as initializer lists, smart pointers, and more.</p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading">Include Analysis and Optimization<span class="pull-right badge alert-success">Coming Soon</span></h2>
+      <p class="lead">Dependencies among <span style="color:red;">C++</span> header files can become quite complex and get out of control. Includator analyzes the depenceny hierarchy in <span style="color:red;">C++</span> projects and optimzes them if necessary. Such cleanup keeps <span style="color:red;">C++</span> header files tidy and reduces compile time.</p>
+      <p class="lead">Cevelop provides exclusive access to Includator, which otherwise has to be purchased separately!</p>
+    </div>
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" src="img/square-includator.png" alt="Generic placeholder image">
+    </div>
+  </div>
+
 </div>
