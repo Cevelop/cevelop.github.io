@@ -6,9 +6,8 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 550px /* total footer height + 50px margin*/;
 }
 
 p, li {
@@ -80,13 +79,22 @@ h6,
   margin-bottom: 0;
   margin-top: 0px;
   background-color: #2C3E50;
-  height: 200px;
+  height: 150px;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+}
+
+#supported {
+  bottom: 150px;
+  position: absolute;
+  height: 350px;
 }
 
 #footer a, 
 #footer p {
   color: white;
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
 #footer a:hover,
