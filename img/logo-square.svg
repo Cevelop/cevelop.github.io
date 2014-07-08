@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72"
+   height="72"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo-square.svg"
+   inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/logo-square.png"
+   inkscape:export-xdpi="250"
+   inkscape:export-ydpi="250">
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="1024"
+       id="font3817"
+       inkscape:label="font 1"
+       horiz-origin-x="0"
+       horiz-origin-y="0"
+       vert-origin-x="45"
+       vert-origin-y="90"
+       vert-adv-y="90">
+      <font-face
+         units-per-em="1024"
+         id="font-face3819"
+         font-family="SVGFont 1" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3821" />
+      <glyph
+         glyph-name="glyph 1"
+         id="glyph3823" />
+    </font>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="10.356484"
+     inkscape:cy="40.185446"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1643"
+     inkscape:window-height="950"
+     inkscape:window-x="272"
+     inkscape:window-y="350"
+     inkscape:window-maximized="0"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3065"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-401.78469px"
+       originy="-839.41526px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-401.78469,-140.94692)">
+    <text
+       sodipodi:linespacing="125%"
+       id="text3849"
+       y="185.71359"
+       x="450.32828"
+       style="font-size:24.75963974px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
+       xml:space="preserve"
+       transform="scale(0.98911,1.0110099)"><tspan
+         style="font-size:24.75963974px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold"
+         y="185.71359"
+         x="450.32828"
+         id="tspan3851"
+         sodipodi:role="line">+</tspan></text>
+    <g
+       id="g3768"
+       transform="translate(0,-0.11463)">
+      <path
+         style="fill:none;stroke:#ff0000;stroke-width:6.11122656;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 460.00069,200.26155 c -5.80879,5.93741 -13.83353,9.60976 -22.69745,9.60976 -17.7278,0 -32.09904,-14.68944 -32.09904,-32.80976 0,-18.12032 14.37124,-32.80976 32.09904,-32.80976 8.86392,0 16.88866,3.67234 22.69745,9.60976"
+         id="path3853"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="csssc" />
+      <path
+         sodipodi:nodetypes="csssc"
+         inkscape:connector-curvature="0"
+         id="path3855"
+         d="m 449.2061,188.78546 c -2.93539,3.00042 -6.99063,4.85621 -11.4699,4.85621 -8.95862,0 -16.22094,-7.42319 -16.22094,-16.58012 0,-9.15693 7.26232,-16.58009 16.22094,-16.58009 4.47927,0 8.53451,1.85576 11.4699,4.85619"
+         style="fill:none;stroke:#444444;stroke-width:5.81288147;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:24.75963974px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Zeyada;-inkscape-font-specification:Zeyada"
+       x="463.56628"
+       y="185.71359"
+       id="text3016"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98911,1.0110099)"><tspan
+         sodipodi:role="line"
+         id="tspan3018"
+         x="463.56628"
+         y="185.71359"
+         style="font-size:24.75963974px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:Quicksand;-inkscape-font-specification:Quicksand Bold">+</tspan></text>
+  </g>
+</svg>

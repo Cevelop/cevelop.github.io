@@ -24,20 +24,40 @@ a {
   font-weight: 400;
 }
 
+h1 {
+  margin-left: -0.1em; 
+}
+  
+
 a:hover,
 a:focus {
   color: black;
   text-decoration: none;
 }
 
-.navbar-default .navbar-nav a {
-   font-weight: 300;
+a.navbar-brand {
+   font-weight: 700;
+   font-family: "Quicksand", "Lato";
 }
 
-.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav a {
+   font-weight: 300;
+   font-family: "Quicksand", "Lato";
+}
+/*
+.btn-default {
+  border: none;
+  background-color: #AE0000;
+}
+*/
+.navbar-default .navbar-nav > .active > a {
+  background-color: #AE0000;
+}
+
+/*.btn-default:hover,*/
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  background-color: #AE0000;
+  background-color: #BE0000;
 }
 
 h1,
@@ -107,3 +127,9 @@ textarea,
 .input-group {
   margin-bottom: 1em;
 }
+
+.instructions img {
+  margin: 1em;
+}
+
+

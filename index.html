@@ -4,6 +4,10 @@ layout: default
 active: home
 ---
 
+<div id="scrollhint" style="position: fixed; left: 40px; bottom: 0px; z-index: 999;">
+<p style="font-size: 36pt; color: #CCC;"><i class="fa fa-angle-double-down"></i></p>
+</div>
+
 <div class="jumbotron">
   <img class="center-block" style="max-width: 100%" src="{{ site.logo }}" />
   <p style="margin: 1em 0 1em 0;" class="lead text-center">The <span style="color:red;">C++</span> IDE for professional developers</p>
@@ -80,5 +84,16 @@ active: home
       <img class="featurette-image img-responsive" src="img/square-includator.png" alt="Generic placeholder image">
     </div>
   </div>
-
 </div>
+
+<script>
+  $( document ).ready(function() {
+    $(window).scroll( function() {
+      if($(document).scrollTop() == 0 ) {
+	$('#scrollhint').show();
+      } else {
+	$('#scrollhint').hide();
+      }
+    });
+  });
+</script>
