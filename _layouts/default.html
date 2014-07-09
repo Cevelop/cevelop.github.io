@@ -27,6 +27,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     
+    {% include socialshareprivacy.html %}
+    
   </head>
   <body>
 
@@ -105,6 +107,9 @@
     {{ content }}
 
     <div id="supported" class="jumbotron" style="margin-top: 100px; margin-bottom: 0px; width: 100%">
+      <div style="float: none; width: 460px; margin-top: -40px; margin-left: auto; margin-right: auto; text-align: center;">
+        <div id="socialshareprivacy"></div>
+      </div>
       <div class="container">
         <p>
           <h4 style="text-align: center;">Developed within the context of the REPARA project, co-funded by the European Commission within the Seventh Framework Programme</h4>
@@ -119,8 +124,8 @@
     <footer id="footer" class="jumbotron" >
       <div class="container">
         <p class="pull-right">
-        <a href="https://twitter.com/cevelop" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @cevelop</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <a href="https://twitter.com/cevelop" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @cevelop</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	</p>
         <p>&copy; <a href="http://ifs.hsr.ch">2014 Institute for Software</a> &ndash; <a href="/contact"><i class="fa fa-envelope-o"></i> Contact Us</a> &ndash; <a href="/contact"><i class="fa fa-bug"></i> Bug Reports</a> &ndash; <a href="/license"><i class="fa fa-file-text-o"></i> License</a></p>
       </div>
