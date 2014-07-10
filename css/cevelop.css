@@ -10,6 +10,19 @@ body {
   margin-bottom: 550px /* total footer height + 50px margin*/;
 }
 
+.row ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.row ul li {
+    background-image: url('/img/star-16x16.png');
+    background-repeat: no-repeat;
+    background-position: 0px 7px;
+    padding-left: 24px;
+}
+
 p, li {
   font-weight: 300;
   font-size: 14pt;
