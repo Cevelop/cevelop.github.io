@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="334.3605"
+   height="334.3605"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="screw-head.svg"
+   inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/star.png"
+   inkscape:export-xdpi="37.68"
+   inkscape:export-ydpi="37.68">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5946"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5948" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:1;"
+         offset="0"
+         id="stop4412" />
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:0;"
+         offset="1"
+         id="stop4414" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4365">
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:1;"
+         offset="0"
+         id="stop4367" />
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:0;"
+         offset="1"
+         id="stop4369" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4275">
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:1;"
+         offset="0"
+         id="stop4277" />
+      <stop
+         style="stop-color:#2f2f2f;stop-opacity:0;"
+         offset="1"
+         id="stop4279" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-362.5 : 147.18025 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="334.3605 : 167.18025 : 1"
+       inkscape:persp3d-origin="167.18025 : 111.4535 : 1"
+       id="perspective4254" />
+    <linearGradient
+       id="linearGradient4103">
+      <stop
+         id="stop4105"
+         offset="0"
+         style="stop-color:#0f3882;stop-opacity:1;" />
+      <stop
+         id="stop4107"
+         offset="1"
+         style="stop-color:#5fb9ef;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4085">
+      <stop
+         id="stop4087"
+         offset="0"
+         style="stop-color:#a2330c;stop-opacity:1;" />
+      <stop
+         id="stop4089"
+         offset="1"
+         style="stop-color:#ffb04e;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4017">
+      <stop
+         id="stop4019"
+         offset="0"
+         style="stop-color:#00630d;stop-opacity:1;" />
+      <stop
+         id="stop4021"
+         offset="1"
+         style="stop-color:#9dec83;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4003">
+      <stop
+         id="stop4005"
+         offset="0"
+         style="stop-color:#a2530c;stop-opacity:1;" />
+      <stop
+         id="stop4007"
+         offset="1"
+         style="stop-color:#ffda4e;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3897">
+      <stop
+         style="stop-color:#a2530c;stop-opacity:1;"
+         offset="0"
+         id="stop3899" />
+      <stop
+         style="stop-color:#ffda4e;stop-opacity:1;"
+         offset="1"
+         id="stop3901" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3891">
+      <stop
+         id="stop3893"
+         offset="0"
+         style="stop-color:#706807;stop-opacity:1;" />
+      <stop
+         id="stop3895"
+         offset="1"
+         style="stop-color:#fdfdfd;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3860">
+      <stop
+         style="stop-color:#0052e5;stop-opacity:1;"
+         offset="0"
+         id="stop3862" />
+      <stop
+         style="stop-color:#8cbaff;stop-opacity:1;"
+         offset="1"
+         id="stop3864" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3798">
+      <stop
+         style="stop-color:#750000;stop-opacity:1;"
+         offset="0"
+         id="stop3800" />
+      <stop
+         style="stop-color:#ffa2a2;stop-opacity:1;"
+         offset="1"
+         id="stop3802" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3755">
+      <stop
+         style="stop-color:#f2e440;stop-opacity:1;"
+         offset="0"
+         id="stop3757" />
+      <stop
+         style="stop-color:#fffbaf;stop-opacity:1;"
+         offset="1"
+         id="stop3759" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient3950"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3860"
+       id="linearGradient4050"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4085"
+       id="linearGradient4098"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3860"
+       id="linearGradient4123"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4103"
+       id="linearGradient4133"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4017"
+       id="linearGradient4145"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3897"
+       id="linearGradient4152"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient4194"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3897"
+       id="linearGradient4324"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient4334"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3798"
+       id="linearGradient4343"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4103"
+       id="linearGradient4383"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4365"
+       id="linearGradient4385"
+       gradientUnits="userSpaceOnUse"
+       x1="309.18082"
+       y1="178.45805"
+       x2="307.18555"
+       y2="489.88663" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3897"
+       id="linearGradient4406"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4275"
+       id="linearGradient4408"
+       gradientUnits="userSpaceOnUse"
+       x1="13.593422"
+       y1="78.994728"
+       x2="277.98767"
+       y2="263.27362" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4416"
+       x1="48.708801"
+       y1="100.31662"
+       x2="277.13837"
+       y2="288.63971"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4017"
+       id="linearGradient4426"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4017"
+       id="linearGradient4475"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4017"
+       id="linearGradient5980"
+       gradientUnits="userSpaceOnUse"
+       x1="310.11685"
+       y1="360.91275"
+       x2="341.43158"
+       y2="169.99393" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.4"
+     inkscape:cx="273.72145"
+     inkscape:cy="-62.021053"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1521"
+     inkscape:window-height="1059"
+     inkscape:window-x="773"
+     inkscape:window-y="279"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-142.4315,-105.84923)">
+    <g
+       id="g4338"
+       transform="translate(-1797.2006,1406.5363)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4343);fill-opacity:1;stroke:none"
+         id="path3932"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         transform="translate(-3.2958984e-6,0)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path3934"
+         style="fill:#ed2300;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,27.662631,24.39415)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         transform="matrix(0.75688782,0.98267089,-0.98267089,0.75688782,367.41395,93.42891)"
+         d="M 159.99999,180.78908 -6.4386317,159.73961 95.010056,26.124266 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.6965983"
+         sodipodi:arg1="0.64940075"
+         sodipodi:r2="89.485886"
+         sodipodi:r1="96.858826"
+         sodipodi:cy="122.21765"
+         sodipodi:cx="82.85714"
+         sodipodi:sides="3"
+         id="path3936"
+         style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient4416);stroke-width:9.67452145;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png" />
+    </g>
+    <g
+       id="g3966"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-red-triangle-up.png"
+       inkscape:export-xdpi="4.3067288"
+       inkscape:export-ydpi="4.3067288"
+       transform="translate(-1857.1172,107.28223)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient3950);fill-opacity:1;stroke:none"
+         id="path3944"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         transform="translate(468.57143,381.42857)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path3946"
+         style="fill:#ed2300;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,496.23406,405.82272)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         transform="matrix(1.2314078,-0.14884907,0.14884907,1.2314078,658.29116,526.77832)"
+         d="M 159.99999,180.78908 -6.4386317,159.73961 95.010056,26.124266 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.6965983"
+         sodipodi:arg1="0.64940075"
+         sodipodi:r2="89.485886"
+         sodipodi:r1="96.858826"
+         sodipodi:cy="122.21765"
+         sodipodi:cx="82.85714"
+         sodipodi:sides="3"
+         id="path3948"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="star"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png" />
+    </g>
+    <g
+       id="g4147"
+       transform="translate(-1205.8438,22.996527)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4152);fill-opacity:1;stroke:none"
+         id="path3973"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         transform="translate(-584.28571,465.71429)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path3975"
+         style="fill:#ffb82a;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,-556.62308,490.10844)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         inkscape:connector-curvature="0"
+         id="path3977"
+         d="m -403.35224,737.10228 107.98272,110.35814 0.41546,-56.75743 129.82837,1.0632 0.5587,-103.966 -129.57047,-1.06111 0.41524,-56.71196 -109.63014,107.07516 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4378"
+       transform="translate(941.42857,150.35714)"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+       inkscape:export-xdpi="3.2300465"
+       inkscape:export-ydpi="3.2300465">
+      <path
+         transform="translate(-271.42857,-562.85714)"
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4406);fill-opacity:1;stroke:none"
+         id="path3990"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path3992"
+         style="fill:#ffca00;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,-243.76593,-538.46299)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         transform="matrix(0.7196228,0.98423722,-0.98423722,0.7196228,98.84846,-459.32935)"
+         d="M 159.99999,180.78908 24.285712,199.36051 5.7142849,63.646224 141.42857,45.074797 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="true"
+         sodipodi:arg2="1.4347989"
+         sodipodi:arg1="0.64940075"
+         sodipodi:r2="89.485886"
+         sodipodi:r1="96.858826"
+         sodipodi:cy="122.21765"
+         sodipodi:cx="82.85714"
+         sodipodi:sides="4"
+         id="path3994"
+         style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient4408);stroke-width:9.84208488;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="star"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png" />
+    </g>
+    <g
+       id="g4135"
+       transform="translate(-1790.1296,50.279927)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4123);fill-opacity:1;stroke:none"
+         id="path4009"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-blue-up.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4011"
+         style="fill:#008eff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,27.66264,24.39415)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-blue-up.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-blue-up.png"
+         inkscape:connector-curvature="0"
+         id="path4013"
+         d="m 311.25324,147.63691 -110.35814,107.98272 56.75743,0.41546 -1.0632,129.82837 103.96601,0.5587 1.0611,-129.57047 56.71196,0.41524 -107.07516,-109.63014 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g5975"
+       transform="translate(-3.2958984e-6,2.0947266e-6)">
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path2985"
+         style="fill:url(#linearGradient5980);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+         transform="matrix(0.9106538,0,0,0.9106538,27.66263,24.39414)"
+         sodipodi:type="arc"
+         style="fill:#07a949;fill-opacity:1;stroke:none"
+         id="path3765"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+         transform="matrix(0.9904845,0.84596798,-0.84596798,0.9904845,342.72258,538.57572)"
+         d="m -140,-25.639499 -31.90334,-73.404501 -80.98136,5.919818 59.95316,-53.025118 -30.6547,-75.18852 68.95642,40.63317 62.03572,-52.38888 -17.33574,78.1378 68.994878,42.81042 -79.670498,7.65864 z"
+         inkscape:randomized="0"
+         inkscape:rounded="0"
+         inkscape:flatsided="false"
+         sodipodi:arg2="2.0934109"
+         sodipodi:arg1="1.4812925"
+         sodipodi:r2="43.8815"
+         sodipodi:r1="111.87639"
+         sodipodi:cy="-137.06807"
+         sodipodi:cx="-150"
+         sodipodi:sides="5"
+         id="path4023"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="star" />
+    </g>
+    <g
+       id="g4128"
+       transform="translate(-217.77895,1885.9547)">
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         transform="translate(-1177.8379,-46.467015)"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4044"
+         style="fill:url(#linearGradient4133);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         transform="matrix(0.9106538,0,0,0.9106538,-1150.1753,-22.072865)"
+         sodipodi:type="arc"
+         style="fill:#19629d;fill-opacity:1;stroke:none"
+         id="path4046"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="m -866.58465,101.16989 -110.35814,107.98272 56.75743,0.41546 -1.0632,129.82837 103.96601,0.5587 1.0611,-129.57047 56.71196,0.41524 -107.07516,-109.63014 z"
+         id="path4048"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+    </g>
+    <g
+       id="g4093"
+       transform="translate(-1790.1296,-423.10237)">
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4069"
+         style="fill:url(#linearGradient4098);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         transform="matrix(0.9106538,0,0,0.9106538,27.66263,24.39415)"
+         sodipodi:type="arc"
+         style="fill:#ff732a;fill-opacity:1;stroke:none"
+         id="path4071"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         d="M 445.00432,274.67097 337.0216,164.31283 l -0.41546,56.75743 -129.82837,-1.0632 -0.5587,103.966 129.57047,1.06111 -0.41524,56.71196 109.63014,-107.07516 z"
+         id="path4073"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-left.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+    </g>
+    <g
+       id="g4391"
+       transform="translate(300.61147,1630.5884)">
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4318"
+         style="fill:url(#linearGradient4324);fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="translate(314.57143,-562.85714)" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+         transform="matrix(0.9106538,0,0,0.9106538,342.23407,-538.46299)"
+         sodipodi:type="arc"
+         style="fill:#ffca00;fill-opacity:1;stroke:none"
+         id="path4320"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z" />
+      <path
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-yellow-diamond.png"
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         sodipodi:type="star"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="path4322"
+         sodipodi:sides="4"
+         sodipodi:cx="82.85714"
+         sodipodi:cy="122.21765"
+         sodipodi:r1="96.858826"
+         sodipodi:r2="89.485886"
+         sodipodi:arg1="0.64940075"
+         sodipodi:arg2="1.4347989"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 159.99999,180.78908 24.285712,199.36051 5.7142849,63.646224 141.42857,45.074797 z"
+         transform="matrix(0.7196228,0.98423722,-0.98423722,0.7196228,684.84846,-459.32935)" />
+    </g>
+    <g
+       id="g4347"
+       transform="translate(-1051.7857,443.92857)"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-red-triangle-down.png"
+       inkscape:export-xdpi="3.2300465"
+       inkscape:export-ydpi="3.2300465">
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         transform="translate(554.28571,8.5714286)"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4328"
+         style="fill:url(#linearGradient4334);fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         transform="matrix(0.9106538,0,0,0.9106538,581.94835,32.965579)"
+         sodipodi:type="arc"
+         style="fill:#ed2300;fill-opacity:1;stroke:none"
+         id="path4330"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z" />
+      <path
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/screw-head.png"
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         sodipodi:type="star"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="path4332"
+         sodipodi:sides="3"
+         sodipodi:cx="82.85714"
+         sodipodi:cy="122.21765"
+         sodipodi:r1="96.858826"
+         sodipodi:r2="89.485886"
+         sodipodi:arg1="0.64940075"
+         sodipodi:arg2="1.6965983"
+         inkscape:flatsided="true"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M 159.99999,180.78908 -6.4386317,159.73961 95.010056,26.124266 z"
+         transform="matrix(0.75688782,0.98267089,-0.98267089,0.75688782,921.69966,102.00034)" />
+    </g>
+    <g
+       id="g4373"
+       transform="translate(-1797.2006,1839.4877)">
+      <path
+         sodipodi:type="arc"
+         style="fill:url(#linearGradient4383);fill-opacity:1;stroke:none"
+         id="path4354"
+         sodipodi:cx="309.61176"
+         sodipodi:cy="273.02948"
+         sodipodi:rx="167.18025"
+         sodipodi:ry="167.18025"
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         transform="translate(0,2e-6)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         d="m 476.79201,273.02948 c 0,92.3311 -74.84915,167.18025 -167.18025,167.18025 -92.33111,0 -167.18026,-74.84915 -167.18026,-167.18025 0,-92.3311 74.84915,-167.18025 167.18026,-167.18025 92.3311,0 167.18025,74.84915 167.18025,167.18025 z"
+         sodipodi:ry="167.18025"
+         sodipodi:rx="167.18025"
+         sodipodi:cy="273.02948"
+         sodipodi:cx="309.61176"
+         id="path4356"
+         style="fill:#19629d;fill-opacity:1;stroke:none"
+         sodipodi:type="arc"
+         transform="matrix(0.9106538,0,0,0.9106538,27.6626,24.394152)"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-ydpi="4.3067288" />
+      <path
+         inkscape:export-ydpi="4.3067288"
+         inkscape:export-xdpi="4.3067288"
+         inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-darkblue-up.png"
+         inkscape:connector-curvature="0"
+         id="path4358"
+         d="m 311.25325,147.63691 -110.35814,107.98272 56.75743,0.41546 -1.0632,129.82837 103.96601,0.5587 1.0611,-129.57047 56.71196,0.41524 -107.07516,-109.63014 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:url(#linearGradient4385);stroke-width:12;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <path
+       inkscape:export-ydpi="4.3067288"
+       inkscape:export-xdpi="4.3067288"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+       d="m 476.79201,273.02948 a 167.18025,167.18025 0 1 1 -334.36051,0 167.18025,167.18025 0 1 1 334.36051,0 z"
+       sodipodi:ry="167.18025"
+       sodipodi:rx="167.18025"
+       sodipodi:cy="273.02948"
+       sodipodi:cx="309.61176"
+       id="path4420"
+       style="fill:url(#linearGradient4426);fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       transform="translate(1015,205)" />
+    <path
+       inkscape:export-ydpi="4.3067288"
+       inkscape:export-xdpi="4.3067288"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+       transform="matrix(0.9106538,0,0,0.9106538,1042.6626,229.39414)"
+       sodipodi:type="arc"
+       style="fill:#07a949;fill-opacity:1;stroke:none"
+       id="path4422"
+       sodipodi:cx="309.61176"
+       sodipodi:cy="273.02948"
+       sodipodi:rx="167.18025"
+       sodipodi:ry="167.18025"
+       d="m 476.79201,273.02948 a 167.18025,167.18025 0 1 1 -334.36051,0 167.18025,167.18025 0 1 1 334.36051,0 z" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path4431"
+       sodipodi:cx="150"
+       sodipodi:cy="219.3605"
+       sodipodi:rx="58.75"
+       sodipodi:ry="116.25"
+       d="m 208.75,219.3605 a 58.75,116.25 0 1 1 -117.5,0 58.75,116.25 0 1 1 117.5,0 z"
+       transform="matrix(0.36787185,-0.48822848,0.54695479,0.49895463,1105.1274,461.46671)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:url(#linearGradient4475);fill-opacity:1;stroke:none"
+       id="path4459"
+       sodipodi:cx="309.61176"
+       sodipodi:cy="273.02948"
+       sodipodi:rx="167.18025"
+       sodipodi:ry="167.18025"
+       d="m 476.79201,273.02948 a 167.18025,167.18025 0 1 1 -334.36051,0 167.18025,167.18025 0 1 1 334.36051,0 z"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+       inkscape:export-xdpi="4.3067288"
+       inkscape:export-ydpi="4.3067288"
+       transform="translate(-296.98485,-433.1029)" />
+    <path
+       d="m 476.79201,273.02948 a 167.18025,167.18025 0 1 1 -334.36051,0 167.18025,167.18025 0 1 1 334.36051,0 z"
+       sodipodi:ry="167.18025"
+       sodipodi:rx="167.18025"
+       sodipodi:cy="273.02948"
+       sodipodi:cx="309.61176"
+       id="path4461"
+       style="fill:#07a949;fill-opacity:1;stroke:none"
+       sodipodi:type="arc"
+       transform="matrix(0.9106538,0,0,0.9106538,-269.32222,-408.70876)"
+       inkscape:export-filename="/home/misto/repos/cevelop.github.io/img/icon-green-star.png"
+       inkscape:export-xdpi="4.3067288"
+       inkscape:export-ydpi="4.3067288" />
+    <rect
+       rx="9.3000002"
+       transform="matrix(0.7641592,0.64502769,-0.64502769,0.7641592,0,0)"
+       y="-84.099167"
+       x="-119.17099"
+       height="101.25"
+       width="21.875"
+       id="rect4463"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <path
+       transform="matrix(0.77152052,0.91941137,-0.91941137,0.77152052,107.73299,-479.3246)"
+       d="m 208.75,219.3605 a 58.75,116.25 0 1 1 -117.5,0 58.75,116.25 0 1 1 117.5,0 z"
+       sodipodi:ry="116.25"
+       sodipodi:rx="58.75"
+       sodipodi:cy="219.3605"
+       sodipodi:cx="150"
+       id="path4465"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4467"
+       d="M -65.553459,-84.089624 C -26.540019,-144.6098 28.942301,-199.44784 110.61083,-245.25099"
+       style="fill:none;stroke:#0c9e00;stroke-width:10.95213318;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#0c9e00;stroke-width:4.12143278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 93.772231,-172.94225 c -101.0021096,6.93618 -53.01495,-35.41753 -54.72,-73.47365"
+       id="path4469"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path4471"
+       d="m 48.013321,-139.18567 c -55.6649796,3.79489 -59.1525,-27.99219 -54.7199996,-73.47366"
+       style="fill:none;stroke:#0c9e00;stroke-width:4.12143278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       style="fill:none;stroke:#0c9e00;stroke-width:4.12143278;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 6.0051414,-103.9288 c -70.4651404,4.006996 -47.0330704,-36.21669 -54.7200104,-73.47366"
+       id="path4473"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       transform="matrix(0.60535435,-0.08510499,0.03394124,0.73956964,1228.8857,325.23579)"
+       d="m 208.75,219.3605 a 58.75,116.25 0 1 1 -117.5,0 58.75,116.25 0 1 1 117.5,0 z"
+       sodipodi:ry="116.25"
+       sodipodi:rx="58.75"
+       sodipodi:cy="219.3605"
+       sodipodi:cx="150"
+       id="path4477"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path4479"
+       sodipodi:cx="150"
+       sodipodi:cy="219.3605"
+       sodipodi:rx="58.75"
+       sodipodi:ry="116.25"
+       d="m 208.75,219.3605 a 58.75,116.25 0 1 1 -117.5,0 58.75,116.25 0 1 1 117.5,0 z"
+       transform="matrix(0.45954509,0.40313156,-0.53821551,0.50836929,1423.7854,326.16167)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4481"
+       width="47.692013"
+       height="72.20134"
+       x="1331.8032"
+       y="504.51794"
+       transform="matrix(0.99998127,0.00612011,-0.05730079,0.99835696,0,0)"
+       rx="20.275919" />
+  </g>
+</svg>
