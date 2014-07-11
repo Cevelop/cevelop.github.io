@@ -5,7 +5,7 @@ active: home
 ---
 
 <div id="scrollhint" style="position: fixed; left: 40px; bottom: 0px; z-index: 999;">
-<p style="font-size: 36pt; color: #CCC;"><i class="fa fa-angle-double-down"></i></p>
+<p style="font-size: 36pt; color: #CCC;"><a href=""><i class="fa fa-angle-double-down"></i></a></p>
 </div>
 
 <div class="jumbotron">
@@ -94,6 +94,11 @@ active: home
       } else {
 	$('#scrollhint').hide();
       }
+    });
+    
+    $('#scrollhint').click(function(){
+      $('html, body').animate({scrollTop: window.innerHeight}, 400);
+      return false;
     });
   });
 </script>
