@@ -4,7 +4,19 @@
     if($('#socialshareprivacy').length > 0){
       $('#socialshareprivacy').socialSharePrivacy({
         "css_path"  : "/socialshareprivacy/socialshareprivacy.css",
-        "lang_path" : "/socialshareprivacy/lang/"
+        "lang_path" : "/socialshareprivacy/lang/",
+        "language"  : "en",
+        services : {
+	    facebook : {
+		'perma_option' : 'off'
+	    }, 
+	    twitter : {
+		'perma_option' : 'off'
+	    },
+	    gplus : {
+		'perma_option' : 'off'
+	    }
+	},
       });
     }
   });
