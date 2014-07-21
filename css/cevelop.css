@@ -145,4 +145,6 @@ textarea,
   margin: 1em;
 }
 
-
+.post:not(:last-child) {
+  margin-bottom: 7em; 
+}

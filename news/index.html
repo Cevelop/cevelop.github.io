@@ -14,8 +14,10 @@ active: news
   <div class="row">
     <div class="col-lg-12">
       {% for post in site.posts %}
-	<h1><a href="{{ post.url }}">{{ post.title }}</a><div class="pull-right"><small>{{ post.date | date_to_string }}</small></div></h1>
-	<p>{{ post.content }}</p>
+	<div class="post">
+	  <h1><a href="{{ post.url }}">{{ post.title }}</a><div class="pull-right"><small>{{ post.date | date_to_string }}</small></div></h1>
+	  <p>{{ post.content }}</p>
+	</div>
       {% endfor %}
     </div>
   </div>
