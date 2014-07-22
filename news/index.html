@@ -1,0 +1,24 @@
+---
+layout: default
+title: Cevelop News
+active: news
+---
+  
+<div class="jumbotron">
+  <div class="container">
+    <h1>News <small>&ndash; releases, upcoming features and more</small></h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      {% for post in site.posts %}
+	<div class="post">
+	  <h1><a href="{{ post.url }}">{{ post.title }}</a><div class="pull-right"><small>{{ post.date | date_to_string }}</small></div></h1>
+	  <p>{{ post.content }}</p>
+	</div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

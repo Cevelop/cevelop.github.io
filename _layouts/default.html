@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mirko Stocker">
-    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="shortcut icon" href="/img/favicon.png">
 
+   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" /> 
+    
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/cevelop.css" rel="stylesheet">
     
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -24,6 +26,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    
+    {% include socialshareprivacy.html %}
     
   </head>
   <body>
@@ -48,6 +52,14 @@
 	      <li>
             {% endif %}
 		<a href="/">Home</a>
+	      </li>
+	      	   
+	    {% if page.active == "news" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/news">News</a>
 	      </li>
 	      	   
 	    {% if page.active == "about" %}
@@ -95,6 +107,9 @@
     {{ content }}
 
     <div id="supported" class="jumbotron" style="margin-top: 100px; margin-bottom: 0px; width: 100%">
+      <div style="float: none; width: 460px; margin-top: -40px; margin-left: auto; margin-right: auto; text-align: center;">
+        <div id="socialshareprivacy"></div>
+      </div>
       <div class="container">
         <p>
           <h4 style="text-align: center;">Developed within the context of the REPARA project, co-funded by the European Commission within the Seventh Framework Programme</h4>
@@ -108,12 +123,14 @@
     </div>
     <footer id="footer" class="jumbotron" >
       <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; <a href="http://ifs.hsr.ch">2014 Institute for Software</a></p>
+        <p class="pull-right">
+          <a href="https://twitter.com/cevelop"><i class="fa fa-twitter"></i> Cevelop on Twitter</a>
+	</p>
+        <p>&copy; <a href="http://ifs.hsr.ch">2014 Institute for Software</a> &ndash; <a href="/contact"><i class="fa fa-envelope-o"></i> Contact Us</a> &ndash; <a href="/contact"><i class="fa fa-bug"></i> Bug Reports</a> &ndash; <a href="/license"><i class="fa fa-file-text-o"></i> License</a></p>
       </div>
     </footer>
 
-     <a href="/contact"> <img style="border: 0; position: fixed; right: 0; bottom:0; z-index: 9000" src="/img/contact.png"></a> 
+     <a href="/contact"><img style="border: 0; position: fixed; right: 0; bottom:0; z-index: 9000" src="/img/contact.png"></a> 
         
     <!-- ################ -->
     <!-- Piwik Tracking Code -->

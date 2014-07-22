@@ -3,37 +3,125 @@ title: Download Cevelop
 layout: default
 active: download
 
-download-win32: http://cevelop.com/cevelop/downloads/com.cevelop.platform-win32.win32.x86.zip
-download-win64: http://cevelop.com/cevelop/downloads/com.cevelop.platform-win32.win32.x86_64.zip
-download-osx64: http://cevelop.com/cevelop/downloads/com.cevelop.platform-macosx.cocoa.x86_64.tar.gz
-download-lnx64: http://cevelop.com/cevelop/downloads/com.cevelop.platform-linux.gtk.x86_64.tar.gz
+release-version: 1.0.0
+download-win32: http://cevelop.com/cevelop/downloads/cevelop-1.0.0-201407221136-win32.win32.x86.zip
+download-win64: http://cevelop.com/cevelop/downloads/cevelop-1.0.0-201407221136-win32.win32.x86_64.zip
+download-osx64: http://cevelop.com/cevelop/downloads/cevelop-1.0.0-201407221136-macosx.cocoa.x86_64.tar.gz
+download-lnx64: http://cevelop.com/cevelop/downloads/cevelop-1.0.0-201407221136-linux.gtk.x86_64.tar.gz
 ---
 
 <div class="jumbotron">
   <div class="container">
-    <h1>Download <small>the latest release of Cevelop</small></h1>
+    <h1>Download <small>&ndash; the latest release of Cevelop</small></h1>
   </div>
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sx-12">
-      <h4>Download Cevelop for your preferred operating system</h4>
+  <div class="collapse in downloads">
+    <div class="row">
+      <div class="col-sm-12">
+	<h4>Download Cevelop for your preferred operating system</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+	<h2><i class="fa fa-windows"></i> Windows</h2>
+	<p><a class="btn btn-success download-windows" href="{{ page.download-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
+	<p><a class="btn btn-success download-windows" href="{{ page.download-win32 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (32-Bit)</a></p>
+      </div>
+      <div class="col-md-4">
+	<h2><i class="fa fa-apple"></i> OS X</h2>
+	<p><a class="btn btn-success download-osx" href="{{ page.download-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
+      </div>
+      <div class="col-md-4">
+	<h2><i class="fa fa-linux"></i> Linux</h2>
+	<p><a class="btn btn-success download-linux" href="{{ page.download-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
+      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Windows</h2>
-      <p><a class="btn btn-success" href="{{ page.download-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release 0.1 (64-Bit)</a></p>
-      <p><a class="btn btn-success" href="{{ page.download-win32 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release 0.1 (32-Bit)</a></p>
+  
+  <div class="row windows instructions collapse">
+    <div class="col-md-12">
+      <h2>Thank you for downloading Cevelop</h2>
+      <p>To get started, simply unpack the downloaded archive:</p>
+      <img src="/img/installation-windows-1.png" />
+      <p>And run the <code>cevelop</code> executable from the extracted folder:</p>
+      <img src="/img/installation-windows-2.png" />
     </div>
-    <div class="col-md-4">
-      <h2>OS X</h2>
-      <p><a class="btn btn-success" href="{{ page.download-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release 0.1 (64-Bit)</a></p>
+  </div>
+  <div class="row osx instructions collapse">
+    <div class="col-md-12">
+      <h2>Thank you for downloading Cevelop</h2>
+      <p>To get started, simply unpack the downloaded archive by opening it:</p>
+      <img src="/img/installation-osx-1.png" />
+      <p>Copy the <code>cevelop</code> folder to your applications</p>
+      <img src="/img/installation-osx-2.png" />
+      <p>And launch the cevelop application:</p>
+      <img src="/img/installation-osx-3.png" />
     </div>
-    <div class="col-md-4">
-      <h2>Linux</h2>
-      <p><a class="btn btn-success" href="{{ page.download-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release 0.1 (64-Bit)</a></p>
+  </div>
+  <div class="row linux instructions collapse">
+    <div class="col-md-12">
+      <h2>Thank you for downloading Cevelop</h2>
+      <p>To get started, simply unpack the downloaded archive:</p>
+      <img src="/img/installation-linux-1.png" />
+      <p>And double click on the <code>Cevelop C++ IDE</code> file in the extracted folder:</p>
+      <img src="/img/installation-linux-2.png" />
+      <p>Alternatively, if you want to run Cevelop from a terminal, use the <code>cevelop.sh</code> script.</p>
     </div>
   </div>
 </div>
+
+<div class="container">
+ <div class="row">
+    <div class="col-md-12">
+      <h1>Changelog</h1>
+      <h2>Release 1.0</h2>
+      <p>This is the initial release of Cevelop, containing the following plug-ins:</p>
+      <ul>
+	<li>Eclipse Luna (4.4)</li>
+	<li>Eclipse CDT (8.4)</li>
+	<li>Eclipse EGit (3.4)</li>
+	<li>Eclipse CVS Provider (1.4)</li>
+	<li>CUTE &ndash; C++ Unit Testing Easier (4.9)</li>
+	<li>Macronator (4.9)</li>
+	<li>Namespactor (4.9)</li>
+	<li>Elevator (4.9)</li>
+	<li>SConsolidator (0.6)</li>
+	<li>Mockator 0.1</li>
+      </ul>
+      <!-- Always include this line after the latest release: -->
+      <p>Did we miss your favorite plug-in? <a href="/contact"><i class="fa fa-envelope-o"></i> Let us know</a> and we will consider including it in an upcoming Cevelop release.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+  
+    $('.download-windows').click(function(){
+      setTimeout(function() {
+	$('.instructions, .downloads').collapse('hide');
+	$('.windows.instructions').collapse('show');
+      }, 2000);
+    });
+
+    $('.download-osx').click(function(){
+      setTimeout(function() {
+	$('.instructions, .downloads').collapse('hide');
+	$('.osx.instructions').collapse('show');
+      }, 500);
+    });
+
+    $('.download-linux').click(function(){
+      setTimeout(function() {
+	$('.instructions, .downloads').collapse('hide');
+	$('.linux.instructions').collapse('show');
+      }, 500);
+    });
+    
+    $('.collapse').collapse({
+      toggle: false
+    });
+  });
+</script>

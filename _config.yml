@@ -4,3 +4,7 @@ pygments: true
 title: Cevelop
 logo-small: /img/logo-white.png
 logo: /img/logo.png
+
+name: Cevelop C++ IDE
+description: The C++ IDE for professional developers
+url: http://cevelop.com
