@@ -68,7 +68,7 @@ active:
       var data = $('form.contact');
       $.ajax({
 	type: "POST",
-	url: "http://cevelop.com/mailer/process.php",
+	url: "/mailer/process.php",
 	data: $('form.contact').serialize(),
 	dataType: "text",
 	success: function(msg){
