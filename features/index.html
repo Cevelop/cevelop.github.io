@@ -11,45 +11,102 @@ active: features
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <p>
-	In the current release, the following componentes are included:
-      
-	<ul>
-	  <li>CUTE Plug-in with TDD support</li>
-	  <li>Mockator</li>
-	  <li>Namespactor</li>
-	  <li>Macronator</li>
-	  <li>SConsolidator</li>
-	  <li>Elevator</li>
-	</ul>
-      </p>
-      
-      <h1>CUTE Plug-in with TDD support</h1>
-      <p>
-	<a href="http://cute-test.com/">CUTE</a>, short for C++ Unit Testing Easier, is a C++ unit testing framework mandatory for every C++ project. The CUTE plug-in support easy development and management of CUTE unit tests for your software. Features like red/green-bar result visualization, automatic test registration and code coverage aleviate every-day tasks of a software developer. The plug-in also encourages test driven development through various code generation mechanisms, reducing development time significantly.
-      </p>
-      <h1>Mockator</h1>
-      <p>
-	<a href="http://mockator.com/">Mockator</a> assists the software developer in creating mock objects and test doubles when writing regression tests. When working with legacy code it also supports the integration of several kinds of seams. Thereby, boilerplate and infrastructure code is automatically generated, which reduces accidental mistakes when writing such code by hand.
-      </p>
-      <h1>Namespactor</h1>
-      <p>
-	The Namespactor plug-in provides several useful namespace-related automated refactorings. It is capable to quality unqualified names and it can inline and extract using directives and declarations.
-      </p>
-      <h1>Macronator</h1>
-      <p>
-	Macros should not be used in modern C++ code. Their use often leads to semantic errors which get obfuscated in the macro definition. An IDE has a hard time to highlight compilation errors related to macros correctly. Usually macros can be replaced with more suitable C++ code. <a href="http://cute-test.com/projects/macronator/wiki">Macronator</a> helps a software developer to demacrofy C++ his code and make it more readable.
-      </p>
-      <h1>SConsolidator</h1>
-      <p>
-	SCons is a widespread used tool for configuring build. It offers automatic dependency extraction and has a much simpler syntax than make. With <a href="http://sconsolidator.com/">SConsolidator</a> Cevelop provides a tight integration of SCons for your C++ projects.
-      </p>
-      <h1>Elevator</h1>
-      <p>
-	Modern C++ software must be written in the latest version of the language standard. Elevator assists the programmer to spring-clean his code and make it C++11 compliant.
-      </p>
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h1>Test-Driven Development</h1>
+      <p>Cevelop ships with CUTE (<a href="www.cute-test.com">www.cute-test.com</a>), an easy to use unit testing framework for <span style="color:red;">C++</span>. CUTE is tightly integrated with Cevelop to offer easy writing and management of unit tests. The following features are included:</p>
+      <ul>
+        <li>Red/Green-bar test result visualization</li>
+        <li>Support for C++ seams and mock objects</li>
+        <li>Code coverage visualization</li>
+        <li>Diff-viewer for failing tests</li>
+        <li>Automatic test registration</li>
+      </ul>
+    </div>
+    
+    <div class="col-md-5">
+      <img class="featurette-image img-responsive" src="../img/cute-feature.png" alt="Generic placeholder image" style="margin-top: 50px;">
+      <p class="img-caption">Red/Green-bar test-driven development with Cevelop.</p>		
+    </div>
+
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-5">
+	<div id="carousel-macros" class="carousel slide" data-ride="carousel" data-interval="0" style="margin-top: 50px;">
+
+	   <ol class="carousel-indicators">
+	    <li data-target="#carousel-macros" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-macros" data-slide-to="1"></li>
+	    <li data-target="#carousel-macros" data-slide-to="2"></li>
+	  </ol>
+
+	  <div class="carousel-inner" role="listbox" >
+	    <div class="item active">
+	      <a href="#carousel-macros" role="button" data-slide="next">
+	      <img src="../img/macro01.png" alt="" >
+	      </a>
+	    </div>
+	    <div class="item">
+		<a href="#carousel-macros" role="button" data-slide="next">
+	      <img src="../img/macro02.png" alt="" >
+	      </a>
+	      
+	    </div>
+	    <div class="item">
+	      <a href="#carousel-macros" role="button" data-slide="next">
+	      <img src="../img/macro03.png" alt="" >
+	      </a>
+	   </div>
+        </div>
+      </div>	
+      <p class="img-caption">Cevelop can automatically transform macro definitions into C++11 code.</p>
+    </div>
+
+    <div class="col-md-7">
+      <h1> Spring-clean your <span style="color:red;">C++</span> Code </h1>
+      <p>Cevelop offers a variety of gardening tools to keep your code up-to-date with the latest ISO <span style="color:red;">C++</span> Standard. It can perform a variety of static code analyses to find potential weaknesses in your code, and provides <strong>Quick-Assists</strong> to fix them.</p>
+      <ul>
+        <li>Find macros and transform them into semantically equivalent, type-safe, and <span style="color:red;">C++</span>11 compliant code.</li>
+        <li>Migrate variable declarations and initializations to the new uniform initialization syntax.</li>
+        <li>Detect  uninitialized variables.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h1>Refactorings</h1>
+      <p>Cevelop offers many additional refactorings that help you write and maintain your <span style="color:red;">C++</span> code.</p>
+      <p>Our <strong>namespace</strong> related refactorings help keeping your global namespace unpolluted and ambiguity-free, as well as making your code generally more readable:
+      <ul>
+        <li><strong>Inline Using</strong> changes identifiers to include their namespace or class prefix and eliminates using namespace directives and using declarations.</li>
+        <li><strong>Extract Using Declaration</strong> can automatically extract fully-qualified names into the local block-scope, which makes the code more readable without polluting the global namespace</li>
+        <li><strong>Qualify Name</strong> resolves the scope of unqualified names, in case you are ever in doubt about the origin of an identifier.</li>
+      <ul>
+    </div>
+    <div class="col-md-5">
+      <div id="carousel-namespace" class="carousel slide" data-ride="carousel" data-interval="0" style="margin-top: 50px;">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-namespace" data-slide-to="0" class="active"></li>
+	  <li data-target="#carousel-namespace" data-slide-to="1"></li>
+	</ol>
+	<div class="carousel-inner" role="listbox" >
+	  <div class="item active">
+	    <a href="#carousel-namespace" role="button" data-slide="next"><img src="../img/inline-namespace01.png" alt="" ></a>
+	    </div>
+	    <div class="item">
+	      <a href="#carousel-namespace" role="button" data-slide="next"><img src="../img/inline-namespace02.png" alt="" ></a>
+	    </div>
+        </div>
+      </div>	
+      <p class="img-caption">Cevelop automatically identifies problematic namespace directives.</p>
     </div>
   </div>
 </div>
