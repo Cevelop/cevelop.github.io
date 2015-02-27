@@ -148,3 +148,27 @@ textarea,
 .post:not(:last-child) {
   margin-bottom: 7em; 
 }
+
+.carousel-indicators li {
+  border: 1px solid #2C3E50;
+}
+
+.carousel-indicators .active {
+  background-color: #2C3E50;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+
+.img-caption {
+
+  text-align:center;
+  opacity:0.7;
+  font-style:italic;
+  font-size:14px;
+  margin-top:15px
+}
