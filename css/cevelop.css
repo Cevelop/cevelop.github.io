@@ -181,9 +181,8 @@ textarea,
 
 .latest-news  a {
   text-align: center; 
-  font-style: italic;
-  font-size: 12pt;
-  font-weight: 500;
+  font-size: 23px;
+  font-weight: 400;
   display: block;
   margin-bottom: 15px;
   color: inherit;

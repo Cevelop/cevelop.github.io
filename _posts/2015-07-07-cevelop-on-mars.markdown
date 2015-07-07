@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cevelop on Mars"
+title:  "Cevelop on Mars Released, Update Now!"
 ---
 
 **Eclipse Mars** has arrived, including a new version of the CDT C/C++ Development Tools on which Cevelop is built. The most important news and changes of the Eclipse platform are summarized in [Platform New and Noteworthy](https://www.eclipse.org/eclipse/news/4.5/platform.php). The platform has received many small fixes, stability and performance improvements. For example, the user interface has been cleaned up a bit (better icons, dark theme) and made more customizable.
