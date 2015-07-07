@@ -14,6 +14,17 @@ active: home
   <p class="text-center">
     <a class="btn btn-lg btn-default" role="button" href="/download">Get it now!</a>
   </p>
+    
+  <div class="latest-news">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <a href="{{site.posts.first.url}}">
+          Latest News: {{ site.posts.first.title }} &ndash; {{ site.posts.first.date | date_to_string }}
+        </a>
+      </div>
+    </div>
+  </div> 
 </div>
 
 <div class="container">
@@ -33,7 +44,7 @@ active: home
     <div class="col-lg-4">
       <img class="img-circle" src="img/star.png">
       <h2>IDE++</h2>
-      <p>Cevelop extends Eclipse CDT with many additional features: CUTE unit testing with Test Driven Development support, many new refactorings and quick fixes, and much more. And it's free!</p>
+      <p>Cevelop extends Eclipse CDT with many additional features: CUTE unit testing with Test Driven Development support, new refactorings and quick fixes, and much more. And it's free!</p>
       <p><a class="btn btn-default" href="/features" role="button">View Details &raquo;</a></p>
     </div>
   </div>

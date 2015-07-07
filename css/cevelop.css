@@ -105,6 +105,7 @@ h6,
 
 .jumbotron {
  background-color: #eee;
+ padding-bottom: 0;
 }
 
 #footer {
@@ -165,10 +166,25 @@ textarea,
 }
 
 .img-caption {
-
   text-align:center;
   opacity:0.7;
   font-style:italic;
   font-size:14px;
   margin-top:15px
+}
+
+.latest-news {
+  padding-top: 1em;
+  background-color: #D4D6D8;
+  margin: 30px -30px 0 -30px;
+}
+
+.latest-news  a {
+  text-align: center; 
+  font-style: italic;
+  font-size: 12pt;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 15px;
+  color: inherit;
 }
