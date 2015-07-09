@@ -18,7 +18,7 @@ And you can also inline typedefs:
 
 We recommend to [download a fresh copy of Cevelop](/download) because updating is still not reliable on all platforms (you can of course continue to use your existing workspaces). 
 
-In the previous blog post, we promised a brand new plug-in that helps you refactor char-pointers to proper C++-string objects. Unfortunately, this needs some more polishing and has thus been delayed to the next release, planned for August 2015. 
+In the previous blog post, we promised a brand new plug-in that helps you refactor char-pointers to proper C++-string objects. Unfortunately, this needs some more polishing and has thus been delayed to the next release, planned for fall 2015. 
 
 <p class="pull-right">
   <em>&mdash; Mirko Stocker</em>
