@@ -62,14 +62,6 @@
             {% endif %}
 		<a href="/news">News</a>
 	      </li>
-	      	   
-	    {% if page.active == "about" %}
-	      <li class="active">
-            {% else %}
-	      <li>
-            {% endif %}
-		<a href="/about">About</a>
-	      </li>
 	      
 	    {% if page.active == "download" %}
 	      <li class="active">
@@ -85,6 +77,14 @@
 	      <li>
             {% endif %}
 		<a href="/features">Features</a>
+	      </li>
+	      	   
+	    {% if page.active == "faq" %}
+	      <li class="active">
+            {% else %}
+	      <li>
+            {% endif %}
+		<a href="/faq">FAQ</a>
 	      </li>
 	      
             <!--<li class="dropdown">
@@ -127,7 +127,12 @@
         <p class="pull-right">
           <a href="https://twitter.com/cevelop"><i class="fa fa-twitter"></i> Cevelop on Twitter</a>
 	</p>
-        <p>&copy; <a href="http://ifs.hsr.ch">2015 Institute for Software</a> &ndash; <a href="/contact"><i class="fa fa-envelope-o"></i> Contact Us</a> &ndash; <a href="/contact"><i class="fa fa-bug"></i> Bug Reports</a> &ndash; <a href="/license"><i class="fa fa-file-text-o"></i> License</a></p>
+        <p>&copy; <a href="http://ifs.hsr.ch">2015 Institute for Software</a> &ndash; 
+	          <a href="/contact"><i class="fa fa-envelope-o"></i> Contact Us</a> &ndash; 
+		  <a href="/contact"><i class="fa fa-bug"></i> Bug Reports</a> &ndash; 
+		  <a href="/license"><i class="fa fa-file-text-o"></i> License</a> &ndash; 
+		  <a href="/about"><i class="fa fa-question"></i> About</a>
+	</p>
       </div>
     </footer>
 
