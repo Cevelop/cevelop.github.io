@@ -33,6 +33,8 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
       <div class="col-md-4">
         <h2><i class="fa fa-apple"></i> OS X</h2>
         <p><a class="btn btn-success download-osx" href="{{ page.download-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
+        <p>or install it using <a href="http://brew.sh/">Homebrew</a></p>
+        <kbd>brew cask install cevelop</kbd></p>
       </div>
       <div class="col-md-4">
         <h2><i class="fa fa-linux"></i> Linux</h2>
@@ -46,7 +48,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
       </div>
     </div>
   </div>
-  
+
   <div class="row windows instructions collapse">
     <div class="col-md-12">
       <h2>Thank you for downloading Cevelop</h2>
@@ -184,7 +186,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
 
 <script>
   $(document).ready(function() {
-  
+
     $('.download-windows').click(function(){
       setTimeout(function() {
         $('.instructions, .downloads').collapse('hide');
@@ -205,7 +207,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
         $('.linux.instructions').collapse('show');
       }, 500);
     });
-    
+
     $('.collapse').collapse({
       toggle: false
     });
