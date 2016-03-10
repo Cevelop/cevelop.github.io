@@ -113,6 +113,9 @@ h6,
  .jumbotron {
   padding-left: 0;
  }
+ #contact-triangle {
+  display: none;
+ }
 }
 
 #footer {
