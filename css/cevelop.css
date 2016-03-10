@@ -108,6 +108,13 @@ h6,
  padding-bottom: 0;
 }
 
+@media (max-width: 767px) {
+
+ .jumbotron {
+  padding-left: 0;
+ }
+}
+
 #footer {
   color: white;
   margin-bottom: 0;
