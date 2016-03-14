@@ -2,14 +2,14 @@
 layout: post
 title:  "Cevelop &#x2764; Homebrew!"
 ---
-If you're on a Mac, it has just become even easier to get the latest version of our <span style="color:red;">C++</span> IDE. As of today, Cevelop 1.4 is available via [Homebrew](http://brew.sh/).
+It has just become even easier to get the latest version of our <span style="color:red;">C++</span> IDE, at least if you're on a Mac. As of today, Cevelop 1.4 is available via [Homebrew](http://brew.sh/).
 
 To install it, open a terminal and type
 
 <p><kbd>brew update</kbd><br/>
 <kbd>brew cask install cevelop</kbd></p>
 
-If this is the first time you use <code>cask</code>, Homebrew might ask for your password. Should you have any issues with the installation procedure, [let us know](/contact).
+If this is the first time you are using <code>brew cask</code>, Homebrew might ask for your admin password. Should you have any issues with the installation procedure, [let us know](/contact).
 
 <p class="pull-right">
   <em>&mdash; Silvano Brugnoni</em>
