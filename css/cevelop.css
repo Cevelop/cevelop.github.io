@@ -197,3 +197,25 @@ textarea,
   margin-bottom: 15px;
   color: inherit;
 }
+
+div.linux-download-links {
+  display: inline-block;
+}
+
+.linux-download-links a {
+  display: block;
+}
+
+.download-archlinux img {
+  height: 19px; /* same as FA icon*/
+}
+
+.download-archlinux {
+  text-align: left;
+  color: white;
+  background-color: #0088cc;
+}
+
+.download-archlinux:hover {
+  background-color: #006699;
+}
