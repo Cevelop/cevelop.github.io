@@ -7,6 +7,7 @@ A preview of our upcoming Cevelop 1.5.0 based on Eclipse CDT 9.0 (Neon) is now a
 * Templator: Visualization of (arbitrarily nested) template instantiations, selected overloads, and specializations (See screenshot below).
 * Constificator: Detection and constification of variable declarations in functions and classes.
 * Const placement: Option to automatically align const qualifiers in variable declarations on the right-hand side or left-hand side of the type.
+* CharWars: Automated refactoring of C-style strings into <code>std::string</code>-objects.
 
 <br/>
 
