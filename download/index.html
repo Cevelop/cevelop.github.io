@@ -9,6 +9,12 @@ download-win64: /cevelop/downloads/cevelop-1.4.0-201512021228-win32.win32.x86_64
 download-osx64: /cevelop/downloads/cevelop-1.4.0-201512021228-macosx.cocoa.x86_64.tar.gz
 download-lnx64: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86_64.tar.gz
 download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.gz
+
+
+preview-version: 1.5.0
+preview-win64: /cevelop/downloads/cevelop-1.5.0-201604120956-win32.win32.x86.zip
+preview-osx64: /cevelop/downloads/cevelop-1.5.0-201604120956-macosx.cocoa.x86_64.tar.gz
+preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604120956-linux.gtk.x86_64.tar.gz
 ---
 
 <div class="jumbotron">
@@ -25,23 +31,31 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2><i class="fa fa-windows"></i> Windows</h2>
         <p><a class="btn btn-success download-windows" href="{{ page.download-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
         <p><a class="btn btn-success download-windows" href="{{ page.download-win32 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (32-Bit)</a></p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2><i class="fa fa-apple"></i> OS X</h2>
         <p><a class="btn btn-success download-osx" href="{{ page.download-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
         <p>or install it using <a href="http://brew.sh/">Homebrew</a></p>
         <kbd>brew cask install cevelop</kbd></p>
       </div>
-      <div class="col-md-4">
-	<div class="linux-download-links">
+      <div class="col-md-3">
+	       <div class="linux-download-links">
           <h2><i class="fa fa-linux"></i> Linux</h2>
           <p><a class="btn btn-success download-linux" href="{{ page.download-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
           <p><a class="btn btn-success download-linux" href="{{ page.download-lnx32 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (32-Bit)</a></p>
           <p><a class="btn download-archlinux" href="https://aur.archlinux.org/packages/cevelop/" role="button"><img src="/img/archlinux.png"/> Arch Linux&trade; AUR</a></p>
+        </div>
+      </div>
+      <div class="col-md-3">
+	       <div class="linux-download-links">
+          <h2>1.5 Preview</h2>
+          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Win {{ page.preview-version }} (64-Bit)</a></p>
+          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> OS X {{ page.preview-version }} (64-Bit)</a></p>
+          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Linux {{ page.preview-version }} (64-Bit)</a></p>
         </div>
       </div>
     </div>
@@ -50,6 +64,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
         <h4>Please note that Cevelop requires Java 7 or 8 to run. See the <a href="/faq">Frequently Asked Questions</a> for instructions.</h4>
       </div>
     </div>
+
   </div>
 
   <div class="row windows instructions collapse">
@@ -125,92 +140,19 @@ download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.
       </ul>
     </div>
   </div>
-  <!--
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.2</h2>
-      <p>Updates the underlying Eclipse CDT to version 8.6.</p>
-      <ul>
-        <li>Eclipse Luna SR2 (4.4.2)</li>
-        <li>Eclipse CDT (8.6)</li>
-        <li>Eclipse EGit (3.7.0)</li>
-        <li>Eclipse CVS Provider (1.4.1)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (4.11)</li>
-        <li>Macronator (4.11)</li>
-        <li>Namespactor (4.11)</li>
-        <li>Elevator (4.11)</li>
-        <li>SConsolidator (0.6)</li>
-        <li>Mockator (0.1)</li>
-      </ul>
-    </div>
-  </div>
- <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.1.1</h2>
-      <p>Cevelop is now available as a 32bit version for Linux.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.1</h2>
-      <p>Updates the underlying Eclipse CDT to version 8.5 and comes with the latest CUTE release.</p>
-      <ul>
-        <li>Eclipse Luna SR1 (4.4.1)</li>
-        <li>Eclipse CDT (8.5)</li>
-        <li>Eclipse EGit (3.5.1)</li>
-        <li>Eclipse CVS Provider (1.4.1)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (4.10)</li>
-        <li>Macronator (4.10)</li>
-        <li>Namespactor (4.10)</li>
-        <li>Elevator (4.10)</li>
-        <li>SConsolidator (0.6)</li>
-        <li>Mockator (0.1)</li>
-      </ul>
-    </div>
-  </div>
- <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.0</h2>
-      <p>This is the initial release of Cevelop, containing the following plug-ins:</p>
-      <ul>
-        <li>Eclipse Luna (4.4.0)</li>
-        <li>Eclipse CDT (8.4)</li>
-        <li>Eclipse EGit (3.4)</li>
-        <li>Eclipse CVS Provider (1.4.0)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (4.9)</li>
-        <li>Macronator (4.9)</li>
-        <li>Namespactor (4.9)</li>
-        <li>Elevator (4.9)</li>
-        <li>SConsolidator (0.6)</li>
-        <li>Mockator (0.1)</li>
-      </ul>
-    </div>
-  </div>
-  -->
 </div>
-
+</div>
 <script>
   $(document).ready(function() {
-
-    $('.download-windows').click(function(){
-      setTimeout(function() {
+    var showInstructions = function(platform, timeout) {
+      return function() {
+        setTimeout(function() {
         $('.instructions, .downloads').collapse('hide');
-        $('.windows.instructions').collapse('show');
-      }, 2000);
-    });
-
-    $('.download-osx').click(function(){
-      setTimeout(function() {
-        $('.instructions, .downloads').collapse('hide');
-        $('.osx.instructions').collapse('show');
-      }, 500);
-    });
-
-    $('.download-linux').click(function(){
-      setTimeout(function() {
-        $('.instructions, .downloads').collapse('hide');
-        $('.linux.instructions').collapse('show');
-      }, 500);
+        $('.'+platform+'.instructions').collapse('show');
+      }, timeout)}
+    };
+    ['windows', 'osx', 'linux'].forEach(function(platform) {
+      $('.download-'+platform).click(showInstructions(platform, 500));
     });
 
     $('.collapse').collapse({
