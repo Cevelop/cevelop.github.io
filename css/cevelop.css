@@ -38,9 +38,9 @@ a {
 }
 
 h1 {
-  margin-left: -0.1em; 
+  margin-left: -0.1em;
 }
-  
+
 
 a:hover,
 a:focus {
@@ -135,7 +135,7 @@ h6,
   height: 350px;
 }
 
-#footer a, 
+#footer a,
 #footer p {
   color: white;
   font-size: 12pt;
@@ -157,7 +157,7 @@ textarea,
 }
 
 .post:not(:last-child) {
-  margin-bottom: 7em; 
+  margin-bottom: 7em;
 }
 
 .carousel-indicators li {
@@ -190,7 +190,7 @@ textarea,
 }
 
 .latest-news  a {
-  text-align: center; 
+  text-align: center;
   font-size: 23px;
   font-weight: 400;
   display: block;
@@ -204,6 +204,11 @@ div.linux-download-links {
 
 .linux-download-links a {
   display: block;
+}
+
+.download-preview-btn {
+  background-color: #AE0000;
+  color:#FFFFFF;
 }
 
 .download-archlinux img {
