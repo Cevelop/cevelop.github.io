@@ -14,7 +14,7 @@ A preview of our upcoming Cevelop 1.5.0 based on Eclipse CDT 9.0 (Neon) is now a
 <img src="/img/templator-vector.png" class="img-responsive center-block" style="width:80%" alt="Template Instantiation Example">
 
 <br/>
-The preview can be obtained from our <a href='/download/'>Download</a> page. If you have any issues or other feedback [let us know](/contact).
+The Cevelop 1.5 preview can be obtained from our <a href='/download/'>Download</a> page. If you have any issues or other feedback [let us know](/contact).
 
 <p class="pull-right">
   <em>&mdash; Silvano Brugnoni</em>
