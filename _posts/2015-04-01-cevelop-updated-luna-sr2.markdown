@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Update to Eclipse Luna SR2 and Eclipse CDT 8.6"
 ---
 

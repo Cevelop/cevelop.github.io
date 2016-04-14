@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Hello World!"
 ---
 

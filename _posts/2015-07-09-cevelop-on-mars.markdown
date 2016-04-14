@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Cevelop on Mars Released, Update Now!"
 ---
 

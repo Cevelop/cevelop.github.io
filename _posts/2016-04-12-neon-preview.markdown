@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Cevelop 1.5 Preview"
 ---
 A preview of our upcoming Cevelop 1.5 based on the upcoming Eclipse CDT 9.0 (Neon) is now available for all major platforms. This preview introduces a set of new features that will make your C++ development experience even better:

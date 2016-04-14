@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Modern C++ Development with Cevelop 1.4"
 ---
 

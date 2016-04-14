@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Cevelop &#x2764; Homebrew!"
 ---
 It has just become even easier to get the latest version of our <span style="color:red;">C++</span> IDE, at least if you're on a Mac. As of today, Cevelop 1.4 is available via [Homebrew](http://brew.sh/).

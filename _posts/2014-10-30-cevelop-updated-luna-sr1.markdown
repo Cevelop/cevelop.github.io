@@ -1,5 +1,6 @@
 ---
 layout: post
+active: news
 title:  "Cevelop Updated for the Eclipse Luna Service Release 1"
 ---
 
