@@ -3,7 +3,7 @@ layout: post
 active: news
 title:  "Cevelop 1.5 Preview"
 ---
-A preview of the next Cevelop release, which is based on the upcoming Eclipse CDT 9.0 (Neon), is now available for all major platforms. This preview introduces a set of new features that will make your C++ development experience even better:
+A preview of the next Cevelop release, which is based on the upcoming Eclipse CDT 9.0 (Neon), is now available for all supported platforms. This preview introduces a set of new features that will make your C++ development experience even better:
 
 * <a href="/features/#templator">Templator</a>: Visualization of (arbitrarily nested) template instantiations, overload resolutions, and specializations (See screenshot below).
 * Constificator: Detection and constification of variable declarations in functions and classes.
