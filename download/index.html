@@ -3,18 +3,13 @@ title: Download Cevelop
 layout: default
 active: download
 
-release-version: 1.4.0
-download-win32: /cevelop/downloads/cevelop-1.4.0-201512021228-win32.win32.x86.zip
-download-win64: /cevelop/downloads/cevelop-1.4.0-201512021228-win32.win32.x86_64.zip
-download-osx64: /cevelop/downloads/cevelop-1.4.0-201512021228-macosx.cocoa.x86_64.tar.gz
-download-lnx64: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86_64.tar.gz
-download-lnx32: /cevelop/downloads/cevelop-1.4.0-201512021228-linux.gtk.x86.tar.gz
+release-version: 1.5.0
+download-win32: /cevelop/downloads/cevelop-1.5.0-201607051207-win32.win32.x86.zip
+download-win64: /cevelop/downloads/cevelop-1.5.0-201607051207-win32.win32.x86_64.zip
+download-osx64: /cevelop/downloads/cevelop-1.5.0-201607051207-macosx.cocoa.x86_64.tar.gz
+download-lnx64: /cevelop/downloads/cevelop-1.5.0-201607051207-linux.gtk.x86_64.tar.gz
+download-lnx32: /cevelop/downloads/cevelop-1.5.0-201607051207-linux.gtk.x86.tar.gz
 
-
-preview-version: 1.5.0
-preview-win64: /cevelop/downloads/cevelop-1.5.0-201604150924-win32.win32.x86_64.zip
-preview-osx64: /cevelop/downloads/cevelop-1.5.0-201604150924-macosx.cocoa.x86_64.tar.gz
-preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604150924-linux.gtk.x86_64.tar.gz
 ---
 
 <div class="jumbotron">
@@ -31,18 +26,18 @@ preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604150924-linux.gtk.x86_64.ta
       </div>
     </div>
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-4">
         <h2><i class="fa fa-windows"></i> Windows</h2>
         <p><a class="btn btn-success download-windows" href="{{ page.download-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
         <p><a class="btn btn-success download-windows" href="{{ page.download-win32 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (32-Bit)</a></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <h2><i class="fa fa-apple"></i> OS X</h2>
         <p><a class="btn btn-success download-osx" href="{{ page.download-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
         <p>or install it using <a href="http://brew.sh/">Homebrew</a></p>
         <kbd>brew cask install cevelop</kbd></p>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
 	       <div class="linux-download-links">
           <h2><i class="fa fa-linux"></i> Linux</h2>
           <p><a class="btn btn-success download-linux" href="{{ page.download-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
@@ -50,21 +45,12 @@ preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604150924-linux.gtk.x86_64.ta
           <p><a class="btn download-archlinux" href="https://aur.archlinux.org/packages/cevelop/" role="button"><img src="/img/archlinux.png"/> Arch Linux&trade; AUR</a></p>
         </div>
       </div>
-      <div class="col-md-3">
-	       <div class="linux-download-links">
-          <h2>1.5 Preview</h2>
-          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Win {{ page.preview-version }} (64-Bit)</a></p>
-          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-osx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> OS X {{ page.preview-version }} (64-Bit)</a></p>
-          <p><a class="btn download-preview-btn download-preview" href="{{ page.preview-lnx64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Linux {{ page.preview-version }} (64-Bit)</a></p>
-        </div>
-      </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
-        <h4>Please note that Cevelop requires Java 7 or 8 to run. See the <a href="/faq">Frequently Asked Questions</a> for instructions.</h4>
+        <h4>Please note that Cevelop requires Java 8 to run. See the <a href="/faq">Frequently Asked Questions</a> for instructions.</h4>
       </div>
     </div>
-
   </div>
 
   <div class="row windows instructions collapse">
@@ -105,6 +91,29 @@ preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604150924-linux.gtk.x86_64.ta
       <h1>Changelog</h1>
       <p>Did we miss your favorite plug-in? <a href="/contact"><i class="fa fa-envelope-o"></i> Let us know</a> and we will consider including it in an upcoming Cevelop release.</p>
 
+      <h2>Release 1.5</h2>
+      <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.</p>
+      <ul>
+        <li>Eclipse Neon (4.6.0)</li>
+        <li>Eclipse CDT (9.0)</li>
+        <li>Eclipse EGit (4.4.0)</li>
+        <li>Eclipse CVS Provider (1.4.300)</li>
+        <li>CUTE &ndash; C++ Unit Testing Easier (5.0)</li>
+        <li>Macronator (5.0)</li>
+        <li>CharWars (5.0)</li>
+        <li>Templator (1.5)</li>
+        <li>Constificator (1.5)</li>
+        <li>Namespactor (5.0)</li>
+        <li>Extract Template Refactoring (5.0)</li>
+        <li>Elevator (5.0)</li>
+        <li>Elevenator (5.0)</li>
+        <li>SConsolidator (1.0)</li>
+        <li>Mockator (1.0)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <h2>Release 1.4</h2>
       <p>Updates the underlying Eclipse Platform to Mars and CDT to version 8.8.</p>
       <ul>
@@ -120,24 +129,7 @@ preview-lnx64: /cevelop/downloads/cevelop-1.5.0-201604150924-linux.gtk.x86_64.ta
         <li>SConsolidator (0.6)</li>
         <li>Mockator (1.0)</li>
       </ul>
-    </div>
-  </div>
-    <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.3</h2>
-      <p>Updates the underlying Eclipse Platform to Mars and CDT to version 8.7.</p>
-      <ul>
-        <li>Eclipse Mars (4.5.0)</li>
-        <li>Eclipse CDT (8.7)</li>
-        <li>Eclipse EGit (4.0.1)</li>
-        <li>Eclipse CVS Provider (1.4.2)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (4.12)</li>
-        <li>Macronator (4.12)</li>
-        <li>Namespactor (4.12)</li>
-        <li>Elevator (4.12)</li>
-        <li>SConsolidator (0.6)</li>
-        <li>Mockator (1.0)</li>
-      </ul>
+      <p>You can find this version and older releases in our <a href="/cevelop/downloads/">Download Archive</a>.</p>
     </div>
   </div>
 </div>

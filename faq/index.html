@@ -19,12 +19,19 @@ active: faq
       <p>This is usually caused by an outdated Java version. Cevelop requires Java 7 or 8 to run. Here are some links to get you started:</p>
       <ul>
         <li><a href="https://oliverdowling.com.au/2015/10/09/oracles-jre-8-on-mac-os-x-el-capitan/">Installing Java 8 on OS X El Capitan</a></li>
-	<li><a href="https://askubuntu.com/a/464894">Installing Java 8 on Ubuntu</a></li>
+	      <li><a href="https://askubuntu.com/a/464894">Installing Java 8 on Ubuntu</a></li>
       </ul>
       <h2>I have installed MinGW but Cevelop does not detect it</h2>
       <p>Cevelop is based on the Eclipse C/C++ Development Tools, which handles the detection of the toolchain. If you've installed MinGW and Cevelop doesn't find it, please <a href="https://wiki.eclipse.org/CDT/User/FAQ#I_installed_MinGW_toolchain_on_my_PC_but_Eclipse_won.27t_find_it">see the Eclipse FAQ</a>.</p>
       <h2>Cevelop cannot resolve my included headers</h2>
       <p>One of the trickiest tasks to get right when setting up a project in Cevelop is the include paths. <a href="http://www.eclipse.org/community/eclipse_newsletter/2013/october/article4.php">This Eclipse newsletter discusses the several options and configuration dialogs.</a></p>
+      <h2 id="suppression">How can I suppress false-positive code-analysis messages?</h2>
+      <p>To suppress a message, you can add a line comment that specifies the message to suppress. For example:</p>
+      <pre>char* name = "Cevelop"; // @suppress("Use std::string instead of C-Strings.")</pre>
+      <p>In the future, we plan to have a quick-fix that adds the correct suppression message for you, but at the moment, you'll need to look it up in the preferences:</p>
+      <img class="img-responsive" src="../img/code-analysis-suppression.png"/>
+      <p>The name of the problem is used in the suppression comment. You can also deactive an analysis completely to silence it. <em>Customize Selected...</em> gives you further configuration options for the analysis. For example, you can change the suppression pattern.</p>
+      <img class="img-responsive" src="../img/code-analysis-suppression-pattern.png"/>
     </div>
   </div>
 </div>
