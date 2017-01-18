@@ -18,7 +18,7 @@ active: features
       <p>Cevelop ships with CUTE (<a href="http://www.cute-test.com">www.cute-test.com</a>), an easy to use unit testing framework for <span style="color:red;">C++</span>. CUTE is tightly integrated with Cevelop to offer easy writing and management of unit tests. The following features are included:</p>
       <ul>
         <li>Red/Green-bar test result visualization</li>
-        <li>Support for C++ seams and mock objects</li>
+        <li>Support for <span style="color:red;">C++</span> seams and mock objects</li>
         <li>Code coverage visualization</li>
         <li>Diff-viewer for failing tests</li>
         <li>Automatic test registration</li>
@@ -119,7 +119,35 @@ active: features
         <p>Visually explore function- and class-templates: The <strong>Template Information View</strong> displays detailed template information and lets you easily browse through instantiation levels.</p>
         <p>The Template Information View can be openend in Cevelop via <i>Window</i>  &rarr; <i>Show View</i>  &rarr; <i>Others...</i>  &rarr; <i>C/C++</i>  &rarr; <i>Template Information</i></p>
         <a href="/img/templator-variadic-large.png"><img src="/img/templator-variadic-large.png" class="img-responsive center-block" alt="Template Instantiation Example"></a>
-        <p class="img-caption">Recursive calls to a variadic template function, visualized in Cevelop 1.5.</p>
+        <p class="img-caption">Recursive calls to a variadic template function, visualized in Cevelop 1.6.</p>
     </div>
 </div>
+
+<hr class="featurette-divider">
+
+    <div class="row featurette">
+
+      <div class="col-md-5">
+        <a href="/img/constificator_refactoring_diff.png"><img src="/img/constificator_refactoring_diff.png" class="img-responsive center-block" alt="Constificator Refactoring Example"></a>
+    </div>
+    <div class="col-md-7">
+      <h1 id="constificator">Constification</h1>
+        <p><strong>Constificator</strong> helps to write const-correct code starting from the first line of your project. It also supports you retroactively when reviewing or extending an existing codebase. Because it makes use of the existing problem reporting infrastructure of Cevelop, it integrates nicely into the existing workflow by providing standard problem markers and QuickFixes.</p>
+        <p>To learn about the usage and benefits of <strong>Constificator</strong>, have a look at the <a target="_blank" href="/resources/Constificator_Documentation.pdf">Constificator User Manual</a>.</p>
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+    <div class="row featurette">
+    <div class="col-md-7">
+      <h1 id="includator">Include Analysis and Optimization</h2>
+      <p class="lead">Dependencies among <span style="color:red;">C++</span> header files can become quite complex and get out of control. Includator analyzes the depenceny hierarchy in <span style="color:red;">C++</span> projects and optimzes them if necessary. Such cleanup keeps <span style="color:red;">C++</span> header files tidy and reduces compile time.</p>
+      <p class="lead">Cevelop provides exclusive access to <strong>Includator</strong>, which otherwise has to be purchased separately!</p>
+    </div>
+    <div class="col-md-5">
+       <a href="/img/square-includator.png"><img src="/img/square-includator.png" class="img-responsive center-block" alt="Include Analysis Example"></a>
+    </div>
+  </div>
+
 </div>
