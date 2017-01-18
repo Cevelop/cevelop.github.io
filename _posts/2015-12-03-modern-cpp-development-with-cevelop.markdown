@@ -4,9 +4,9 @@ active: news
 title:  "Modern C++ Development with Cevelop 1.4"
 ---
 
-One of our primary goals with Cevelop is making it easier to write clean, modern C++ code, using the latest C++ standard. Unfortunately, this is not the default in Eclipse: multiple settings (compiler dialect, discovery options, static analysis checkers) need to be changed in each project.
+One of our primary goals with Cevelop is making it easier to write clean, modern <span style="color:red;">C++</span> code, using the latest <span style="color:red;">C++</span> standard. Unfortunately, this is not the default in Eclipse: multiple settings (compiler dialect, discovery options, static analysis checkers) need to be changed in each project.
 
-Our new Cevelop release fixes this. The New Project wizard now includes a page to set the version of C++ (defaults can be changed in the Eclipse preferences):
+Our new Cevelop release fixes this. The New Project wizard now includes a page to set the version of <span style="color:red;">C++</span> (defaults can be changed in the Eclipse preferences):
 
 ![New Project wizard](/img/elevenator-project-wizard.png)
 
