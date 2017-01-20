@@ -10,9 +10,9 @@ The most important changes of the Eclipse platform are summarized in [Platform N
 
 This spring, we released a preview release of Cevelop with some exciting new plug-ins. We are happy to include them in this release:
 
-* Constificator detects and fixes non-const variable declarations in functions and classes (disabled by default).
+* <strong>Constificator</strong> detects and fixes non-const variable declarations in functions and classes (disabled by default).
 * Const placement: Option to automatically align const qualifiers in variable declarations on the right-hand side or left-hand side of the type.
-* CharWars refactors C-style strings into <code>std::string</code>-objects.
+* <strong>CharWars</strong> refactors C-style strings into <code>std::string</code>-objects.
 * <a href="/features/#templator">Templator</a> visualizes  arbitrarily nested template instantiations, overload resolutions, and specializations. We consider it experimental, it works for many interesting cases but also falls on its nose occasionally. Here's an example of <code>std::vector</code>:
 
 <img src="/img/templator-vector.png" class="img-responsive center-block" style="width:80%" alt="Template Instantiation Example">
