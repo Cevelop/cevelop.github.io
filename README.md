@@ -7,6 +7,6 @@ Das ganze basiert auf Jekyll http://jekyllrb.com. Bei einem Commit im master Bra
 
 Dank Docker muss man lokal nichts installieren, folgender Befehl reicht aus
 
-    docker run --rm -it -v $(pwd):/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
+    docker run --rm -it -v $(pwd):/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/jekyll:pages jekyll serve
 
 Unter http://localhost:4000 ist die Seite dann aufrufbar und wird bei Änderungen automatisch neu erstellt.
