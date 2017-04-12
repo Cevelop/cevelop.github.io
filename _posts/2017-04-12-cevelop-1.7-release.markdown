@@ -1,0 +1,21 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.7.0 Release"
+---
+We are happy to announce the latest release of Cevelop, version 1.7.0. Prompted by the recent Eclipse CDT 9.2.2/Neon.3 release, this gives us the opportunity to refresh some of our plug ins.
+
+In addition, our new [Cevelop Beta Plug-ins](/beta) update site gives you a sneak peek at upcoming Cevelop features. These updates are nightly builds of plug-ins that we are currently working on and will be included in upcoming Cevelop releases.
+
+At the moment, the following beta plug-ins are available:
+
+* GSLAtor checks if your code conforms to the [C++ Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines). 
+* Intwidthfixator replaces implementation-dependent integral types, e.g. int, with fixed-width types, e.g. int32_t, and vice-versa.
+* Constificator detects and constifies variable declarations in functions and classes. (Note that this was previously included in Cevelop directly but has now been moved to the beta plug-ins.)
+
+<br/>
+See our [Beta Plug-ins](/beta) page for more details and installation instructions. The Cevelop 1.7 release can be obtained from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Mirko Stocker</em>
+</p>
