@@ -3,12 +3,12 @@ title: Download Cevelop
 layout: default
 active: download
 
-release-version: 1.6.0
-download-win32: /cevelop/downloads/cevelop-1.6.0-201701201507-win32.win32.x86.zip
-download-win64: /cevelop/downloads/cevelop-1.6.0-201701201507-win32.win32.x86_64.zip
-download-osx64: /cevelop/downloads/cevelop-1.6.0-201701201507-macosx.cocoa.x86_64.tar.gz
-download-lnx64: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86_64.tar.gz
-download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.gz
+release-version: 1.7.0
+download-win32: /cevelop/downloads/cevelop-1.7.0-201704121451-win32.win32.x86.zip
+download-win64: /cevelop/downloads/cevelop-1.7.0-201704121451-win32.win32.x86_64.zip
+download-osx64: /cevelop/downloads/cevelop-1.7.0-201704121451-macosx.cocoa.x86_64.tar.gz
+download-lnx64: /cevelop/downloads/cevelop-1.7.0-201704121451-linux.gtk.x86_64.tar.gz
+download-lnx32: /cevelop/downloads/cevelop-1.7.0-201704121451-linux.gtk.x86.tar.gz
 
 ---
 
@@ -25,7 +25,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.
         <h4>Download Cevelop for your preferred operating system. By downloading Cevelop you agree to our <a href="/license">license</a>.</h4>
       </div>
     </div>
-    <div class="row">
+    <div class="row"> 
       <div class="col-md-4">
         <h2><i class="fa fa-windows"></i> Windows</h2>
         <p><a class="btn btn-success download-windows" href="{{ page.download-win64 }}" role="button"><span class="glyphicon glyphicon-floppy-save"></span> Release {{ page.release-version }} (64-Bit)</a></p>
@@ -52,6 +52,17 @@ download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.
         <p>Please note that Cevelop requires Java 8 to run. See the <a href="/faq">Frequently Asked Questions</a> for instructions.</p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>
+          Cevelop Beta Plug-ins
+        </h2>
+        <p>
+          Do you want to try our latest plug-ins and preview upcoming features in Cevelop?
+          Try our new <a href="/beta">Beta Plug-ins Update Site</a> to get a sneak peek at upcoming features.
+        </p>
+      </div>    
+    </div>
   </div>
 
   <div class="row windows instructions collapse">
@@ -76,6 +87,7 @@ download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.
   </div>
   <div class="row linux instructions collapse">
     <div class="col-md-12">
+    
       <h2>Thank you for downloading Cevelop</h2>
       <p>To get started, simply unpack the downloaded archive:</p>
       <img src="/img/installation-linux-1.png" />
@@ -90,8 +102,30 @@ download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.
   <div class="row">
     <div class="col-md-12">
       <h1>Changelog</h1>
-      <p>Did we miss your favorite plug-in? <a href="/contact"><i class="fa fa-envelope-o"></i> Let us know</a> and we will consider including it in an upcoming Cevelop release.</p>
+      <p>Did we forget your favorite plug-in? <a href="/contact"><i class="fa fa-envelope-o"></i> Let us know</a> and we will consider including it in an upcoming Cevelop release.</p>
 
+      <h2>Release 1.7</h2>
+      <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.2</p>
+      <ul>
+        <li>Eclipse Neon (4.6.3)</li>
+        <li>Eclipse CDT (9.2.1)</li>
+        <li>Eclipse EGit (4.7.0)</li>
+        <li>CUTE &ndash; C++ Unit Testing Easier (5.2)</li>
+        <li>CharWars (5.2)</li>
+        <li>Elevator (5.2)</li>
+        <li>Elevenator (5.2)</li>
+        <li>Extract Template Refactoring (5.2)</li>
+        <li>Macronator (5.2)</li>
+        <li>Namespactor (5.2)</li>
+        <li>Includator (1.7)</li>
+        <li>Templator (1.7)</li>
+        <li>Mockator (1.0)</li>
+        <li>SConsolidator (1.0)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <h2>Release 1.6</h2>
       <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.2</p>
       <ul>
@@ -110,29 +144,6 @@ download-lnx32: /cevelop/downloads/cevelop-1.6.0-201701201507-linux.gtk.x86.tar.
         <li>Templator (1.6)</li>
         <li>Mockator (1.0)</li>
         <li>SConsolidator (1.0)</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.5</h2>
-      <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.</p>
-      <ul>
-        <li>Eclipse Neon (4.6.0)</li>
-        <li>Eclipse CDT (9.0)</li>
-        <li>Eclipse EGit (4.4.0)</li>
-        <li>Eclipse CVS Provider (1.4.300)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (5.0)</li>
-        <li>Macronator (5.0)</li>
-        <li>CharWars (5.0)</li>
-        <li>Templator (1.5)</li>
-        <li>Constificator (1.5)</li>
-        <li>Namespactor (5.0)</li>
-        <li>Extract Template Refactoring (5.0)</li>
-        <li>Elevator (5.0)</li>
-        <li>Elevenator (5.0)</li>
-        <li>SConsolidator (1.0)</li>
-        <li>Mockator (1.0)</li>
       </ul>
     </div>
   </div>

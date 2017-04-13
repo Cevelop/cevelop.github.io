@@ -189,6 +189,19 @@ textarea,
   color: inherit;
 }
 
+.beta-plugins pre {
+  display: inline;
+}
+
+.beta-plugins button {
+  height: 36px;
+  margin-top: 1px;
+}
+
+.beta-plugins img {
+  max-width: 100%;
+}
+
 div.linux-download-links {
   display: inline-block;
 }
