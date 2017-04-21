@@ -1,0 +1,20 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.7.1 Release"
+---
+Today, we released Cevelop 1.7.1. This is a minor bug-fix release that resolves the following issues:
+
+* Fixes a bug that caused a crash of the Templator plug-in
+* Fixes a bug that prevented the deinstallation of plug-ins
+* Various bug fixes in the Includator plug-in
+
+<br/>
+
+In order to fix these bugs, we had to temporarily remove the const placement option from Cevelop.
+
+As always, you can download Cevelop 1.7.1 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Toni Suter</em>
+</p>
