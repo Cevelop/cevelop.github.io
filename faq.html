@@ -52,6 +52,9 @@ permalink: /faq/
       <p>To include boost headers you first have to download the newest header files from the official <a href="http://www.boost.org/users/download/">boost homepage</a> and unpack them to the location of your choice. In Cevelop, right-click on your project and choose <i>Properties</i>. In <i>C/C++ General</i> &rarr; <i>Paths and Symbols</i> you can include the boost directory as follows:</p>
       <img class="img-responsive" src="../img/boost_preferences_new.png"/>
       <p>Click <i>Apply</i> and close the dialogue. You are now able to include boost headers in your project files. Note that this does not only work for boost, but any header files you would like to include in your project.</p>
+      <h2>How can I increase the heap size available to Cevelop?</h2>
+      <p>If you are working on large projects using Cevelop, you may need to increase the maximum Java heap size in order to avoid Out-of-Memory exceptions.
+        By default this size is set to 2048MB. You can increase the size by changing the value of the <code>-Xmx</code> flag in the <code>cevelop.ini</code> file. On Windows and Linux this configuration file is located at the root of the Cevelop folder and on macOS it can be found in the <code>Cevelop.app/Contents/Eclipse</code> folder.</p>
     </div>
   </div>
 </div>
