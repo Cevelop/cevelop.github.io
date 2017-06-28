@@ -54,7 +54,10 @@ permalink: /faq/
       <p>Click <i>Apply</i> and close the dialogue. You are now able to include boost headers in your project files. Note that this does not only work for boost, but any header files you would like to include in your project.</p>
       <h2>How can I increase the heap size available to Cevelop?</h2>
       <p>If you are working on large projects using Cevelop, you may need to increase the maximum Java heap size in order to avoid Out-of-Memory exceptions.
-        By default this size is set to 2048MB. You can increase the size by changing the value of the <code>-Xmx</code> flag in the <code>cevelop.ini</code> file. On Windows and Linux this configuration file is located at the root of the Cevelop folder and on macOS it can be found in the <code>Cevelop.app/Contents/Eclipse</code> folder.</p>
+        You can increase this size by changing the following line in the <code>cevelop.ini</code> file:</p>
+        <pre>-Xmx2048m</pre>
+        <p>For example, if you want to increase the maximum Java heap size from the default of 2048MB to twice that size, you can change this line to 
+        <code>-Xmx4096m</code>. On Windows and Linux the <code>cevelop.ini</code> file is located at the root of the Cevelop folder and on macOS it can be found in the <code>Cevelop.app/Contents/Eclipse</code> folder.</p>
     </div>
   </div>
 </div>
