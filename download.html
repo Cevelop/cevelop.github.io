@@ -4,7 +4,7 @@ layout: default
 active: download
 permalink: /download/
 
-release-version: 1.7.1
+release-version: 1.8
 download-win32: /cevelop/downloads/cevelop-1.7.1-201704211123-win32.win32.x86.zip
 download-win64: /cevelop/downloads/cevelop-1.7.1-201704211123-win32.win32.x86_64.zip
 download-osx64: /cevelop/downloads/cevelop-1.7.1-201704211123-macosx.cocoa.x86_64.tar.gz
@@ -105,6 +105,28 @@ download-lnx32: /cevelop/downloads/cevelop-1.7.1-201704211123-linux.gtk.x86.tar.
       <h1>Changelog</h1>
       <p>Did we forget your favorite plug-in? <a href="/contact"><i class="fa fa-envelope-o"></i> Let us know</a> and we will consider including it in an upcoming Cevelop release.</p>
 
+      <h2>Release 1.8</h2>
+      <p>Updates the underlying Eclipse Platform to Oxygen and CDT to version 9.3</p>
+      <ul>
+        <li>Eclipse Oxygen (4.7.0)</li>
+        <li>Eclipse CDT (9.3.0)</li>
+        <li>Eclipse EGit (4.8.0)</li>
+        <li>CUTE &ndash; C++ Unit Testing Easier (5.3)</li>
+        <li>CharWars (5.3)</li>
+        <li>Elevator (5.3)</li>
+        <li>Elevenator (5.3)</li>
+        <li>Extract Template Refactoring (5.3)</li>
+        <li>Macronator (5.3)</li>
+        <li>Namespactor (5.3)</li>
+        <li>Includator (1.8)</li>
+        <li>Templator (1.8)</li>
+        <li>Mockator (1.0)</li>
+        <li>SConsolidator (1.0)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       <h2>Release 1.7</h2>
       <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.2.2</p>
       <ul>
@@ -122,48 +144,25 @@ download-lnx32: /cevelop/downloads/cevelop-1.7.1-201704211123-linux.gtk.x86.tar.
         <li>Templator (1.7)</li>
         <li>Mockator (1.0)</li>
         <li>SConsolidator (1.0)</li>
-      </ul>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2>Release 1.6</h2>
-      <p>Updates the underlying Eclipse Platform to Neon and CDT to version 9.2</p>
-      <ul>
-        <li>Eclipse Neon (4.6.2)</li>
-        <li>Eclipse CDT (9.2)</li>
-        <li>Eclipse EGit (4.4.1)</li>
-        <li>CUTE &ndash; C++ Unit Testing Easier (5.1)</li>
-        <li>CharWars (5.1)</li>
-        <li>Elevator (5.1)</li>
-        <li>Elevenator (5.1)</li>
-        <li>Extract Template Refactoring (5.1)</li>
-        <li>Macronator (5.1)</li>
-        <li>Namespactor (5.1)</li>
-        <li>Constificator (1.6)</li>
-        <li>Includator (1.6)</li>
-        <li>Templator (1.6)</li>
-        <li>Mockator (1.0)</li>
-        <li>SConsolidator (1.0)</li>
-      </ul>
     </div>
   </div>
 </div>
 <script>
-  $(document).ready(function() {
-    var showInstructions = function(platform, timeout) {
-      return function() {
-        setTimeout(function() {
-        $('.instructions, .downloads').collapse('hide');
-        $('.'+platform+'.instructions').collapse('show');
-      }, timeout)}
-    };
-    ['windows', 'osx', 'linux'].forEach(function(platform) {
-      $('.download-'+platform).click(showInstructions(platform, 500));
-    });
+$(document).ready(function() {
+  var showInstructions = function(platform, timeout) {
+    return function() {
+      setTimeout(function() {
+        $(".instructions, .downloads").collapse("hide")
+        $("." + platform + ".instructions").collapse("show")
+      }, timeout)
+    }
+  }
+  ;["windows", "osx", "linux"].forEach(function(platform) {
+    $(".download-" + platform).click(showInstructions(platform, 500))
+  })
 
-    $('.collapse').collapse({
-      toggle: false
-    });
-  });
+  $(".collapse").collapse({
+    toggle: false
+  })
+})
 </script>
