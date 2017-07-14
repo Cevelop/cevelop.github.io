@@ -8,7 +8,7 @@ Eclipse **Oxygen**, the 2017 major release, has been released a few weeks ago. O
 
 Eclipse CDT 9.3 has better support for opening declarations of auto variables and forward declarations of class templates. Content assist now shows the full signature when completing function calls, and can complete #include directives for files without extensions commonly seen in Qt/KDE development.
 
-The Cevelop team is actively working on improving Eclipse CDT and frequently contributes not just bug fixes but also &nash; after an incubation period in Cevelop &nash; new features. We were happy that our const-placement configuration is now part of Eclipse CDT:
+The Cevelop team is actively working on improving Eclipse CDT and frequently contributes not just bug fixes but also &ndash; after an incubation period in Cevelop &ndash; new features. We are happy that our const-placement configuration is now part of Eclipse CDT:
 
 ![Const placement configuration](/img/const-placement.png)
 
