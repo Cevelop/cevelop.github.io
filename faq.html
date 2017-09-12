@@ -58,6 +58,13 @@ permalink: /faq/
         <pre>-Xmx2048m</pre>
         <p>For example, if you want to increase the maximum Java heap size from the default of 2048MB to twice that size, you can change this line to 
         <code>-Xmx4096m</code>. On Windows and Linux the <code>cevelop.ini</code> file is located at the root of the Cevelop folder and on macOS it can be found in the <code>Cevelop.app/Contents/Eclipse</code> folder.</p>
+      <h2>How can I import my existing CMake project to Cevelop?</h2>
+      <p>CMake is currently not natively supported by Cevelop. To import your CMake projects into Cevelop please follow the following steps.</p>
+      <ol>
+        <li>Configure the project using the <code>cmake</code> utility inside your projects root directory and pass <code>-G"Unix Makefiles"</code> as an additional option.</li>
+	<li>Open Cevelop and <i>Import...</i> the project as an <i>C/C++ &rarr; Existing Code as Makefile Project</i>. Note that the <i>Toolchain for Indexer Settings</i> option has no influence over which compiler will be used, so select one of the available toolchains (Example: <i>Linux GCC</i> on Linux).</li>
+      </ol></p>
+      <p>After these steps the project can be run and built directly from inside Cevelop.</p>
     </div>
   </div>
 </div>
