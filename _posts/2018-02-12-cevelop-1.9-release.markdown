@@ -4,13 +4,13 @@ active: news
 title:  "Cevelop 1.9.0 Oxygen.2 Release"
 ---
 
-Eclipse **Oxygen.2** and the bugfix release 9.4.1 of Eclipse CDT have been released a few weeks ago. It includes several fixes for major issues like issues with the console on MacOS X High Sierra and startup issues with Java 9. Cevelop 1.9.0 is based on this improved version of CDT.
+Eclipse **Oxygen.2** and the bugfix release 9.4.1 of Eclipse CDT have been released a few weeks ago. It includes several fixes for major issues like the broken console on MacOS X High Sierra and startup issues with Java 9. Cevelop 1.9.0 is based on this improved version of CDT.
 
-Among other features this release features the improved return type deduction available in Eclipse CDT.
+Among other improvements this release features the support of return type deduction for functions, available in Eclipse CDT.
 
 ![Return type dedcution for functions](/img/return-type_deduction.png)
 
-Also new is the redesigned core build project wizard, which has already been available in previous version, but now it became the only option to create projects with. If you would like to create a CUTE project, you will need to select "C++ Managed Build" first in the wizard.
+Also new is the redesigned core build project wizard, which has already been available in previous version, but now it became the default option to create projects with. If you would like to create a CUTE project, you will need to select "C++ Managed Build" in the wizard first.
 
 ![New C/C++ project wizard](/img/new-project-wizard.png)
 
