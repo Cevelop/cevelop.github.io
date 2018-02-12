@@ -8,7 +8,7 @@ Eclipse **Oxygen.2** and the bugfix release 9.4.1 of Eclipse CDT have been relea
 
 Among other features this release features the improved return type deduction available in Eclipse CDT.
 
-![Return type dedcution for functions](/img/return-type_dedcution.png)
+![Return type dedcution for functions](/img/return-type_deduction.png)
 
 Also new is the redesigned core build project wizard, which has already been available in previous version, but now it became the only option to create projects with. If you would like to create a CUTE project, you will need to select "C++ Managed Build" first in the wizard.
 
