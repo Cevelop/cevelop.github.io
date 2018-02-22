@@ -1,0 +1,11 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.9.1 Bugfix Release"
+---
+
+Due to some unnoticed change in Eclipse CDT the Elevenator plug-in has not been working as expected in Cevelop 1.9.0. Today we released version 1.9.1, which fixes this problem. Check our update site for the new version.
+
+<p class="pull-right">
+  <em>&mdash; Thomas Corbat</em>
+</p>
