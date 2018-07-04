@@ -1,12 +1,12 @@
 cevelop.github.io
 =================
 
-Repository für die Cevelop Webseite
+Repository for the Cevelop website.
 
-Das ganze basiert auf Jekyll http://jekyllrb.com. Bei einem Commit im master Branch automatisch die Seite neu erstellt und veröffentlicht, weshalb man ein wenig aufpassen muss was man committed.
+The site is based on [Jekyll](http://jekyllrb.com). Each commit on the master branch builds and releases the site automatically.
 
-Dank Docker muss man lokal nichts installieren, folgender Befehl reicht aus
+Thanks to [Docker](https://www.docker.com/), no dependencies have to be installed locally. Just execute the following command:
 
     docker run --rm -it -v $(pwd):/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/jekyll:pages jekyll serve
 
-Unter http://localhost:4000 ist die Seite dann aufrufbar und wird bei Änderungen automatisch neu erstellt.
+The site will then be available on http://localhost:4000 and is rebuilt automatically with each change.
