@@ -3,7 +3,7 @@ layout: post
 active: news
 title:  "Cevelop and Templator at ACCU Conference"
 ---
-Our Prof. Peter Sommerlad presented <strong>Templator</strong> &ndash; our latest addition to Cevelop &ndash; at the <a href="http://accu.org/index.php/conferences">ACCU conference</a> in Bristol last week. The Slides and Demo Code can be <a href="https://github.com/PeterSommerlad/Publications/tree/master/ACCU/templator_demo">found on GitHub</a>.
+Our Prof. Peter Sommerlad presented <strong>Templator</strong> &ndash; our latest addition to Cevelop &ndash; at the <a href="http://accu.org/index.php/conferences" target="_blank">ACCU conference</a> in Bristol last week. The Slides and Demo Code can be <a href="https://github.com/PeterSommerlad/Publications/tree/master/ACCU/templator_demo" target="_blank">found on GitHub</a>.
 
 {% include youtubePlayer.html id="FKQZmnRabqw" %}
 
