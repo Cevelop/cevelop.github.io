@@ -15,12 +15,12 @@ permalink: /faq/
   <div class="row">
     <div class="col-lg-12">
       <h2>Where can I report a bug?</h2>
-      <p>Please use our <a href="https://github.com/Cevelop/Issues">GitHub Issue Tracker</a> to report bugs and feature requests <i class="fa fa-bug"></i>.</p>
+      <p>Please use our <a href="https://github.com/Cevelop/Issues" target="_blank">GitHub Issue Tracker</a> to report bugs and feature requests <i class="fa fa-bug"></i>.</p>
       <h2>Cevelop does not start</h2>
       <p>This is usually caused by an outdated Java version. Cevelop requires Java 8 to run. Here are some links to get you started:</p>
       <ul>
-        <li><a href="https://oliverdowling.com.au/2015/10/09/oracles-jre-8-on-mac-os-x-el-capitan/">Installing Java 8 on OS X El Capitan</a></li>
-        <li><a href="https://askubuntu.com/a/464894">Installing Java 8 on Ubuntu</a></li>
+        <li><a href="https://oliverdowling.com.au/2015/10/09/oracles-jre-8-on-mac-os-x-el-capitan/" target="_blank">Installing Java 8 on OS X El Capitan</a></li>
+        <li><a href="https://askubuntu.com/a/464894" target="_blank">Installing Java 8 on Ubuntu</a></li>
       </ul>
       <h2>How is &laquo;Cevelop&raquo; pronounced?</h2>
       <p>We pronounce it as &laquo;see-vel-op&raquo;, just like &laquo;see-plus-plus&raquo;.</p>
@@ -36,9 +36,9 @@ permalink: /faq/
           However, with financial compensation we are happy to provide corresponding licenses and support, as long as we can continue to use Cevelop for our students.
           Please <a href="/contact">contact us</a>.</p>
       <h2>I have installed MinGW but Cevelop does not detect it</h2>
-      <p>Cevelop is based on the Eclipse <span style="color:red;">C/C++</span> Development Tools, which handles the detection of the toolchain. If you've installed MinGW and Cevelop doesn't find it, please <a href="https://wiki.eclipse.org/CDT/User/FAQ#I_installed_MinGW_toolchain_on_my_PC_but_Eclipse_won.27t_find_it">see the Eclipse FAQ</a>.</p>
+      <p>Cevelop is based on the Eclipse <span style="color:red;">C/C++</span> Development Tools, which handles the detection of the toolchain. If you've installed MinGW and Cevelop doesn't find it, please <a href="https://wiki.eclipse.org/CDT/User/FAQ#I_installed_MinGW_toolchain_on_my_PC_but_Eclipse_won.27t_find_it" target="_blank">see the Eclipse FAQ</a>.</p>
       <h2>Cevelop cannot resolve my included headers</h2>
-      <p>One of the trickiest tasks to get right when setting up a project in Cevelop is the include paths. <a href="http://www.eclipse.org/community/eclipse_newsletter/2013/october/article4.php">This Eclipse newsletter discusses the several options and configuration dialogs.</a></p>
+      <p>One of the trickiest tasks to get right when setting up a project in Cevelop is the include paths. <a href="https://www.eclipse.org/community/eclipse_newsletter/2013/october/article4.php" target="_blank">This Eclipse newsletter discusses the several options and configuration dialogs.</a></p>
       <h2 id="suppression">How can I suppress false-positive code-analysis messages?</h2>
       <p>To suppress a message, you can add a line comment that specifies the message to suppress. For example:</p>
       <pre>char* name = "Cevelop"; // @suppress("Use std::string instead of C-Strings.")</pre>
@@ -49,7 +49,7 @@ permalink: /faq/
       <h2>Can I go back to GTK2?</h2>
       <p>You can edit the <code>cevelop.sh</code> script to force Cevelop to use GTK2.</p>
       <h2>How can I include boost headers into my project?</h2>
-      <p>To include boost headers you first have to download the newest header files from the official <a href="http://www.boost.org/users/download/">boost homepage</a> and unpack them to the location of your choice. In Cevelop, right-click on your project and choose <i>Properties</i>. In <i>C/C++ General</i> &rarr; <i>Paths and Symbols</i> you can include the boost directory as follows:</p>
+      <p>To include boost headers you first have to download the newest header files from the official <a href="https://www.boost.org/users/download/" target="_blank">boost homepage</a> and unpack them to the location of your choice. In Cevelop, right-click on your project and choose <i>Properties</i>. In <i>C/C++ General</i> &rarr; <i>Paths and Symbols</i> you can include the boost directory as follows:</p>
       <img class="img-responsive" src="../img/boost_preferences_new.png"/>
       <p>Click <i>Apply</i> and close the dialogue. You are now able to include boost headers in your project files. Note that this does not only work for boost, but any header files you would like to include in your project.</p>
       <h2>How can I increase the heap size available to Cevelop?</h2>
