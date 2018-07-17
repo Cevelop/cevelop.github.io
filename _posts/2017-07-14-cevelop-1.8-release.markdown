@@ -12,7 +12,7 @@ The Cevelop team is actively working on improving Eclipse CDT and frequently con
 
 ![Const placement configuration](/img/const-placement.png)
 
-For a comprehensive list of changes, see [New in CDT 9.3](https://wiki.eclipse.org/CDT/User/NewIn93). Besides these changes, Cevelop 1.8 comes with a new version of CUTE and improved refactorings. 
+For a comprehensive list of changes, see <a href="https://wiki.eclipse.org/CDT/User/NewIn93" target="_blank">New in CDT 9.3</a>. Besides these changes, Cevelop 1.8 comes with a new version of CUTE and improved refactorings. 
 
 
 As always, you can download Cevelop 1.8 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).

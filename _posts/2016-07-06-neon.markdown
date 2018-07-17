@@ -5,8 +5,8 @@ title:  "Eclipse Neon Update"
 ---
 
 Summer has finally arrived here in Switzerland, and with it the latest Eclipse 4.6 release, code-named Neon.
-The most important changes of the Eclipse platform are summarized in [Platform New and Noteworthy](https://www.eclipse.org/eclipse/news/4.6/platform.php), among the highlights is the HiDPI support
- on Windows and Linux (OSX has had it for some years). Thanks to improvements in Eclipse CDT, you can now [suppress code-analysis messages](https://wiki.eclipse.org/CDT/User/NewIn90#Code_Analysis).
+The most important changes of the Eclipse platform are summarized in <a href="https://www.eclipse.org/eclipse/news/4.6/platform.php" target="_blank">Platform New and Noteworthy</a>, among the highlights is the HiDPI support
+ on Windows and Linux (OSX has had it for some years). Thanks to improvements in Eclipse CDT, you can now <a href="https://wiki.eclipse.org/CDT/User/NewIn90#Code_Analysis" target="_blank">suppress code-analysis messages</a>.
 
 This spring, we released a preview release of Cevelop with some exciting new plug-ins. We are happy to include them in this release:
 
@@ -20,7 +20,7 @@ This spring, we released a preview release of Cevelop with some exciting new plu
 
 <br/>
 
-A special thanks to all the testers and bug reporters! There might still be problems and false positives in our code-analysis plug-ins (don't forget that you can now [suppress unwanted messages](/faq/#suppression)). Please report them directly to our [GitHub issue tracker](https://github.com/Cevelop/Issues).
+A special thanks to all the testers and bug reporters! There might still be problems and false positives in our code-analysis plug-ins (don't forget that you can now [suppress unwanted messages](/faq/#suppression)). Please report them directly to our <a href="https://github.com/Cevelop/Issues" target="_blank">GitHub issue tracker</a>.
 
 
 Cevelop 1.5 can be downloaded from our <a href='/download/'>Download</a> page. If you have any issues or other feedback [let us know](/contact).

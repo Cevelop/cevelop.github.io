@@ -10,7 +10,7 @@ Our new Cevelop release fixes this. The New Project wizard now includes a page t
 
 ![New Project wizard](/img/elevenator-project-wizard.png)
 
-This comes as part of the latest CUTE update and is explained in detail on [the CUTE Wiki](http://www.cute-test.com/projects/cute/wiki/Elevenator).  We also upgraded the underlying Eclipse CDT release from 8.7 to 8.8. Besides many debugging improvements, CDT now supports user-defined literals. See [New in 8.8](https://wiki.eclipse.org/CDT/User/NewIn88) for further details.
+This comes as part of the latest CUTE update and is explained in detail on <a href="http://www.cute-test.com/projects/cute/wiki/Elevenator" target="_blank">the CUTE Wiki</a>.  We also upgraded the underlying Eclipse CDT release from 8.7 to 8.8. Besides many debugging improvements, CDT now supports user-defined literals. See <a href="https://wiki.eclipse.org/CDT/User/NewIn88" target="_blank">New in 8.8</a> for further details.
 
 We recommend [downloading a fresh copy of Cevelop](/download) because updating is still not reliable on all platforms (you can of course continue to use your existing workspaces). 
 
