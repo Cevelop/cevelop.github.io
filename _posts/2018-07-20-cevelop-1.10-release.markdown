@@ -1,0 +1,22 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.10.0 Photon Release"
+---
+
+After the release of Eclipse **Photon** and Eclipse CDT 9.5.1, we are proud to announce the release of Cevelop 1.10.0.
+
+Eclipse CDT 9.5.1 comes with several new features, some of them contributed by us:
+
+* <span style="color:red;">C++</span>14: Lambda Init-Captures
+* <span style="color:red;">C++</span>17: Nested Namespace Definitions, `static_assert` without Message, `constexpr if`, `if` with Initializer, `switch` with Initializer, `template <auto>`, `*this` in Lambda Captures
+
+<br/>
+
+All these changes are incorporated into the new Cevelop IDE!
+
+You can find Cevelop ready for to be downloaded as usual on our [Download](/download) page. Please [contact us](/contact), if you should experience any issues.
+
+<p class="pull-right">
+  <em>&mdash; Mario Meili</em>
+</p>
