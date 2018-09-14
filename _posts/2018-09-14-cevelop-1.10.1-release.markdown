@@ -1,0 +1,21 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.10.1 Release"
+---
+
+We are pleased to announce the release of Cevelop 1.10.1. This release features an improved
+version of the Templator Plug-in which now supports variable templates and alias templates. The
+new Cevelop is based on Eclipse CDT 9.5.2 which comes with improved indexer performance. Additionally,
+the following bugs in the CUTE plug-in have been fixed:
+
+* Fixes a null pointer exception that occurred when the CUTE headers were missing
+* Fixes the test-suite templates for C++11 and above
+
+<br/>
+
+As always, you can download Cevelop 1.10.1 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Toni Suter</em>
+</p>
