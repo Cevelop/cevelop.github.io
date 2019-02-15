@@ -1,0 +1,22 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.11.1 Release"
+---
+
+Today, we released Cevelop 1.11.1. This is the first 64-bit-only release since the underlying Eclipse Platform dropped 32-bit support.
+The new Cevelop is based on Eclipse CDT 9.6 which comes with improved support for C++17 and C++ attributes. Additionally,
+the following bugs have been fixed:
+
+* Several quick-fixes have been missing in the last release
+* Macro conversion for C++14 and above sometimes produced invalid code
+* Several refactorings were missing from the menus
+* "Extract using directive" triggered the wrong refactoring
+
+<br/>
+
+As always, you can download Cevelop 1.11.1 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Toni Suter</em>
+</p>
