@@ -74,6 +74,23 @@ permalink: /faq/
 	<li>Open Cevelop and <i>Import...</i> the project as <i>General &rarr; Existing Projects into Workspace</i> and select the folder you've run <code>cmake</code> in as the root directory.</li>
       </ol>
       <p>After either of these steps the project can be run and built directly from inside Cevelop.</p>
+      <h2>How can I link a static library?</h2>
+      <p>There are two ways you can do this in Cevelop. If the library is a separate Cevelop project in the same workspace, you can do the following:</p>
+      <ol>
+        <li>Open the properties of the executable project.</li>
+        <li>Go to C/C++ General &rarr; Paths and Symbols &rarr; References</li>
+        <li>Add a reference to the library project. This will automatically set the library path, header path, etc.</li>
+      </ol>
+      <p>The end result should look like this:</p>
+      <img class="img-responsive" src="../img/link_static_library1.png"/>
+      <p>If you instead want to add the library and its header files directly to the executable project, you can do that as well. However, this means that you need to manually specify the library path, library name, etc:</p>
+      <ol>
+        <li>Open the properties of the executable project.</li>
+        <li>Go to C/C++ General &rarr; Paths and Symbols &rarr; Library Paths and add the path to the library <b>as a workspace path.</b></li>
+        <img class="img-responsive" src="../img/link_static_library2.png"/>
+        <li>Go to C/C++ General &rarr; Paths and Symbols &rarr; Libraries and add the name of the library (without the <b>lib</b> prefix and the <b>.a</b> file extension).</li>
+        <img class="img-responsive" src="../img/link_static_library3.png"/>
+      </ol>
     </div>
   </div>
 </div>
