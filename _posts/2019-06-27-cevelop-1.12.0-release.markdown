@@ -1,0 +1,24 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.12.0 Release"
+---
+
+Today, we released Cevelop 1.12.0. It is based on Eclipse CDT 9.8 and the underlying Eclipse 2019-06 Platform,
+which brings many improvements. We also fixed some minor bugs and added the
+Codeanalysator as a new Beta plug-in.
+
+* Codeanalysator, that comes with many checkers for MISRA, Autosar and the C++ Core Guidelines.
+* CUTE Headers have been updated to the latest version 2.2.3
+* Bugfixes for the TDD, Constificator and other plug-ins
+* Eclipse CDT CMake support is now also included in the IDE
+* Added the different platform update sites to make it easier to install other plug-ins
+
+<br/>
+
+As always, you can download Cevelop 1.12.0 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Hansruedi Patzen</em>
+</p>
+
