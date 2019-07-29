@@ -1,0 +1,22 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.12.1 Release"
+---
+
+Today, we released Cevelop 1.12.1. This is a patch release updating the underlying Eclipse CDT to 9.8.1 and fixing some problems found
+in the different plug-ins. We've also updated the Ctylechecker beta plug-in to be able to check your code against various styleguides.
+
+* Update Eclipse CDT to 9.8.1
+* Fix various small problems in the different plug-ins
+* Ctylechecker now includes styleguide checking support (Preferences -> C/C++ -> Code Analysis -> Ctylechecker)
+* SConsolidator has been updated to 1.1.0
+
+<br/>
+
+As always, you can download Cevelop 1.12.1 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Hansruedi Patzen</em>
+</p>
+
