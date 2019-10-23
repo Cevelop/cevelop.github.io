@@ -1,0 +1,20 @@
+---
+layout: post
+active: news
+title:  "Cevelop 1.13.0 Release"
+---
+
+Today, we released Cevelop 1.13.0. This is a minor release updating the underlying Eclipse Platform and Eclipse CDT.
+
+* Update Eclipse Platform to 2019-09
+* Update Eclipse CDT to 9.9.0
+* General bug fixes and performance improvements
+
+<br/>
+
+As always, you can download Cevelop 1.13.0 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+
+<p class="pull-right">
+  <em>&mdash; Toni Suter</em>
+</p>
+
