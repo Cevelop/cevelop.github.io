@@ -1,10 +1,10 @@
 ---
 layout: post
 active: news
-title:  "Cevelop 1.14.0 Release"
+title:  "Cevelop 1.14.1 Release"
 ---
 
-Today, we released Cevelop 1.14.0. This is a minor release updating the underlying Eclipse Platform and Eclipse CDT.
+Today, we released Cevelop 1.14.1. This is a minor release updating the underlying Eclipse Platform and Eclipse CDT.
 
 * Update Eclipse Platform to 2019-12
 * Update Eclipse CDT to 9.10.0
@@ -14,7 +14,7 @@ Today, we released Cevelop 1.14.0. This is a minor release updating the underlyi
 
 <br/>
 
-As always, you can download Cevelop 1.14.0 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
+As always, you can download Cevelop 1.14.1 from our [Download](/download) page. If you have any issues or other feedback, please [let us know](/contact).
 
 <p class="pull-right">
   <em>&mdash; Thomas Corbat</em>
