@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Cevelop Beta Plug-ins" url="https://www.cevelop.com/update/latest">
+      Cevelop Beta Plug-ins. The plugins in this repository are not part of the standard Cevelop release and are considered Beta.
+   </description>
+   <feature url="features/com.cevelop.constificator.feature_1.9.1.201805132237.jar" id="com.cevelop.constificator.feature" version="1.9.1.201805132237">
+      <category name="com.cevelop.plugins.beta"/>
+   </feature>
+   <feature url="features/com.cevelop.intwidthfixator.feature_1.9.1.201805132237.jar" id="com.cevelop.intwidthfixator.feature" version="1.9.1.201805132237" nl="en_US">
+      <category name="com.cevelop.plugins.beta"/>
+   </feature>
+   <feature url="features/com.cevelop.gslator.feature_1.9.1.201805132237.jar" id="com.cevelop.gslator.feature" version="1.9.1.201805132237">
+      <category name="com.cevelop.plugins.beta"/>
+   </feature>
+   <feature url="features/com.cevelop.ctylechecker.feature_1.9.1.201805132237.jar" id="com.cevelop.ctylechecker.feature" version="1.9.1.201805132237">
+      <category name="com.cevelop.plugins.beta"/>
+   </feature>
+   <feature url="features/com.cevelop.conanator.feature_1.9.1.201805132237.jar" id="com.cevelop.conanator.feature" version="1.9.1.201805132237">
+      <category name="com.cevelop.plugins.beta"/>
+   </feature>
+   <category-def name="com.cevelop.plugins.beta" label="Beta Plug-Ins"/>
+</site>
