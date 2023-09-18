@@ -1,0 +1,6 @@
+[submodule "cevelop-unstable"]
+	path = cevelop-unstable
+	url = https://gitlab.ost.ch/cevelop/binaries-unstable.git
+[submodule "cevelop"]
+	path = cevelop
+	url = https://gitlab.ost.ch/cevelop/binaries.git
