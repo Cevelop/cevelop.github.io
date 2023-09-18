@@ -1,0 +1,27 @@
+name: build
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        lfs: true
+    - name: Build with Jekyll
+      uses: actions/configure-pages@v3
+      with:
+        verbose: true
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
+      with:
+        path: ./_site
+        name: github-pages
+        retention-days: 1
+    - name: Deploy to GitHub Pages
+      uses: actions/deploy-pages@v2
+    
